@@ -1,0 +1,22 @@
+{
+  "name": "aroidpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node index.js",
+    "example": "node example.js"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "asciidoctor": "^2.2.6",
+    "nunjucks": "^3.2.3"
+  },
+  "dependencies": {
+    "jsdom": "^20.0.1",
+    "mkdirp": "^1.0.4"
+  }
+}
