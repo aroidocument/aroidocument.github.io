@@ -1,1 +1,10 @@
-= contract
+:hardbreaks:
+:sitetree-ignore:
+
+= 問い合わせ
+
+記事内容の指摘などはこちらでissueを投稿してもらえると嬉しいです。
+https://github.com/aroidocument/aroidocument.github.io/issues
+
+メールの場合こちらまで
+aroidconfluence@outlook.jp

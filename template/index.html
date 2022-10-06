@@ -2,29 +2,44 @@
 <title>{{title}}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
+:root {
+    --main-bg-color: rgb(255 255 255);
+    --main-component-color: rgb(243 241 236);
+    --main-link-color: rgb(111, 136, 141);
+    --main-link-visited-color: rgb(111, 136, 141);
+    --main-link-hover-color: rgb(111, 136, 141);
+    --main-link-active-color: rgb(111, 136, 141);
+}
+a:link {color: var(--main-link-color);}
+a:visited {color: var(--main-link-color);}
+a:hover {color: var(--main-link-color);}
+a:active {color: var(--main-link-color);}
 body {
-    margin: 10px;
-    font-family: 'Avenir','Helvetica Neue','Helvetica','Arial', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro','メイリオ', 'Meiryo', '游ゴシック', 'Yu Gothic', 'ＭＳ Ｐゴシック', sans-serif;
+  margin: 10px;
+  font-family: 'Avenir','Helvetica Neue','Helvetica','Arial', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro','メイリオ', 'Meiryo', '游ゴシック', 'Yu Gothic', 'ＭＳ Ｐゴシック', sans-serif;
+  color: #172B4D;
+  background-color: var(--main-bg-color);
 }
 .wrapper {
-    display:grid;
-    grid-template-rows: fit-content(400px) auto;
-    grid-template-columns: fit-content(400px) auto;
-    height: 100%;
-    grid-template-areas:
-        "sd hd"
-        "sd bd"
-        "sd bd";
+  display:grid;
+  grid-template-rows: 40px fit-content(100px) auto;
+  grid-template-columns: fit-content(100px) auto;
+  height: 100%;
+  grid-template-areas:
+      "sd hd"
+      "sd bd"
+      "sd bd";
+  row-gap: 10px;
+  column-gap: 10px;
 
-    row-gap: 5px;
-    column-gap: 5px;
-
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 94.625em;
-    min-width: 26.25em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 94.625em;
+  min-width: 26.25em;
 }
-
+.component {
+  box-shadow: 4px 4px 12px rgb(18 47 61 / 50%);
+}
 @media(max-width: 520px){
   .wrapper {
     grid-template-columns: 1fr;
@@ -35,13 +50,13 @@ body {
         "sd";
   }
 }
-
 .header {
-  background-color: rgb(168, 191, 211);
+  background-color: var(--main-component-color);
   grid-area: hd;
   text-align: center;
-}
+  border-radius: 4px;
 
+}
 .header h1 {
   margin: 2px;
   font-size: 20px;
@@ -50,45 +65,84 @@ body {
   grid-area: sd;
   background-color: rgb(168, 224, 241);
   /*max-width: 15em;*/
+  background-color: var(--main-component-color);
 }
 .footer {
   background-color: rgb(109, 116, 123);
 }
-.body {
+.article {
   grid-area: bd;
   background-color: aliceblue;
   line-height: 1.6;
+  padding: 15px;
+  border-radius: 4px;
+  background-color: var(--main-component-color);
 }
 
-.body th,td {
+.article th,td {
     border: solid 1px;
+    word-break: keep-all;
+    vertical-align: top;
+    padding: 8px;
+}
+/*一覧ページ独特の制御*/
+.article td {
+  word-break: keep-all;
+}
+.article td:last-child {
+  word-break: normal;
 }
 
-.body table {
+.article table {
   border-collapse:  collapse;
+  border-radius: 4px;
 }
-
+.article table thead tr {
+  /*テーブルのヘッダー*/
+  background-color: #eeeeee;
+}
 .sidebar {
   padding-top: 10px;
+  border-radius: 4px;
 }
 .sidebar ul {
   margin-left: -10px;
   margin-right: 20px;
 }
-
+.sidebar hr {
+  margin-left: 20px;
+  margin-right: 20px;
+}
 .sidebar-title {
   text-align: center;
+  font-weight: bold;
 }
-
+.sidebar-menu {
+  top: 20px;
+  position: sticky;
+}
+.sidebar-menu a,span {
+  word-break: keep-all;
+}
 </style>
 <div class="wrapper">
-    <div class="header"><h1>サトイモ科園芸図鑑</h1></div>
-    <div class="sidebar">
-      <div class="sidebar-title"><span>メニュー<span></div>
-      {{sidemenu | safe}}
-    </div>
-    <article class="body">
-      <h1>{{title}}</h1>
-      {{article | safe}}
+
+    <nav class="sidebar component">
+      <div class="sidebar-menu">
+        <div class="sidebar-title"><span>メニュー<span></div>
+          <ul>
+            <li><a href="/">概要</a></li>
+            <li><a href="/contact.html">問い合わせ</a></li>
+          </ul>
+          <hr>
+          {{sidemenu | safe}}
+      </div>
+    </nav>
+    <header class="header component"><h1>サトイモ科園芸図鑑</h1></header>
+    <article class="article component">
+      <main>
+        <h1>{{title}}</h1>
+        {{article | safe}}
+      <main>
     </article>
 </div>

@@ -1,0 +1,6 @@
+:hardbreaks:
+:sitetree-ignore:
+
+= 概要
+
+サトイモ科植物の園芸の情報をまとめるためのサイトです。

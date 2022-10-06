@@ -50,16 +50,20 @@ const asciidocPaths = await globFiles(pattern);
    * @param {string[]} pathTokens
    */
   function inner(base, pathTokens, fullpath) {
-    
+
     if(pathTokens.length <= 1) {
       const doc = asciidoctor.loadFile(path.join(asciidocDir, fullpath));
       const name = path.parse(pathTokens[0]).name
 
       const p = path.join(path.dirname(fullpath), path.parse(fullpath).name + '.html' )
 
-      let priority = 10
-      if(doc.getAttribute("page-pariority-key") != undefined) {
-        priority = parseInt(doc.getAttribute("page-pariority-key"))
+      if(doc.getAttribute("sitetree-ignore") != undefined) {
+        return
+      }
+
+      let priority = 5
+      if(doc.getAttribute("sitetree-pariority-key") != undefined) {
+        priority = parseInt(doc.getAttribute("sitetree-pariority-key"))
       }
 
       base[name] = {
@@ -73,7 +77,7 @@ const asciidocPaths = await globFiles(pattern);
       if(base[name] == undefined) {
         base[name] = {
           "child": {},
-          "priority": 10,
+          "priority": 5,
         }
       }
       inner(base[name]["child"], pathTokens.slice(1), fullpath)
@@ -118,7 +122,7 @@ function constructDom(dom, ulElem, tree) {
           constructDom(dom, subul, attribute["child"]);
           li.appendChild(subul);
           ulElem.appendChild(li);
-          
+
         }
         ulElem.appendChild(li);
       }
