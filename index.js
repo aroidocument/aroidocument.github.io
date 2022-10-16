@@ -10,7 +10,8 @@ const asciidoctor = _asciidoctor();
 
 // 各種設定値
 const distDir = "dist";
-const asciidocDir = "article";
+const articleDir = "article";
+const blogDir = "blog";
 const templateDir = "template";
 
 /**
@@ -33,16 +34,13 @@ function globFiles(pattern) {
 fs.rmSync(distDir, { recursive: true, force: true });
 await mkdirp(distDir);
 
-// asciidocを一式取得
-const pattern = path.join(asciidocDir, "**/*.asciidoc");
-const asciidocPaths = await globFiles(pattern);
-
 // サイドメニューの構築
 /**
  * asciidocのパス列からツリーを構築
+ * @param {string} docDir
  * @param {string[]} paths
  */
- function createTree(asciidocPaths) {
+ function createTree(docDir, asciidocPaths) {
 
   /**
    * pathsからツリーを構築
@@ -50,39 +48,42 @@ const asciidocPaths = await globFiles(pattern);
    * @param {string[]} pathTokens
    */
   function inner(base, pathTokens, fullpath) {
-    
-    if(pathTokens.length <= 1) {
-      const doc = asciidoctor.loadFile(path.join(asciidocDir, fullpath));
-      const name = path.parse(pathTokens[0]).name
+      if(pathTokens.length <= 1) {
+        const doc = asciidoctor.loadFile(path.join(docDir, fullpath));
+        const name = path.parse(pathTokens[0]).name
 
-      const p = path.join(path.dirname(fullpath), path.parse(fullpath).name + '.html' )
+        const p = path.join(path.dirname(fullpath), path.parse(fullpath).name + '.html' )
 
-      let priority = 10
-      if(doc.getAttribute("page-pariority-key") != undefined) {
-        priority = parseInt(doc.getAttribute("page-pariority-key"))
-      }
-
-      base[name] = {
-        "title": doc.getDocumentTitle(),
-        "priority":  priority,
-        "path": p,
-        "child": {}
-      }
-    } else {
-      const name = pathTokens[0];
-      if(base[name] == undefined) {
-        base[name] = {
-          "child": {},
-          "priority": 10,
+        if(doc.getAttribute("sitetree-ignore") != undefined) {
+          return
         }
+
+        let priority = 5
+        if(doc.getAttribute("sitetree-pariority-key") != undefined) {
+          priority = parseInt(doc.getAttribute("sitetree-pariority-key"))
+        }
+
+        base[name] = {
+          "title": doc.getDocumentTitle(),
+          "priority":  priority,
+          "path": p,
+          "child": {}
+        }
+      } else {
+        const name = pathTokens[0];
+        if(base[name] == undefined) {
+          base[name] = {
+            "child": {},
+            "priority": 5,
+          }
+        }
+        inner(base[name]["child"], pathTokens.slice(1), fullpath)
       }
-      inner(base[name]["child"], pathTokens.slice(1), fullpath)
-    }
   }
 
   let base = {};
   for(const asciidocPath of asciidocPaths) {
-    const relativePath = path.relative(asciidocDir, asciidocPath)
+    const relativePath = path.relative(docDir, asciidocPath)
     const pathTokens = relativePath.split("/");
     inner(base, pathTokens , relativePath);
   }
@@ -96,44 +97,54 @@ const asciidocPaths = await globFiles(pattern);
  * @param {*} tree ツリー情報
  */
 function constructDom(dom, ulElem, tree) {
-  for(let i = 0; i < 11; i++) { // 10個ほど優先度を洗う
-    for(const name in tree) {
-      const attribute = tree[name];
-      if(attribute["priority"] == i) {
-        const li = dom.window.document.createElement("li");
+    for(let i = 0; i < 11; i++) { // 10個ほど優先度を洗う
+      for(const name in tree) {
+        const attribute = tree[name];
+        if(attribute["priority"] == i) {
+          const li = dom.window.document.createElement("li");
 
-        if(attribute["title"] == undefined) {
-          const span = dom.window.document.createElement("span");
-          span.textContent = name;
-          li.appendChild(span);
-        } else {
-          const a = dom.window.document.createElement("a");
-          a.href = path.join("/", attribute["path"]);
-          a.textContent = attribute["title"];
-          li.appendChild(a);
-        }
+          if(attribute["title"] == undefined) {
+            const span = dom.window.document.createElement("span");
+            span.textContent = name;
+            li.appendChild(span);
+          } else {
+            const a = dom.window.document.createElement("a");
+            a.href = path.join("/", attribute["path"]);
+            a.textContent = attribute["title"];
+            li.appendChild(a);
+          }
 
-        if(attribute["child"] != {}) {
-          const subul = dom.window.document.createElement("ul");
-          constructDom(dom, subul, attribute["child"]);
-          li.appendChild(subul);
-          ulElem.appendChild(li);
-          
+          if(attribute["child"] != {}) {
+            const subul = dom.window.document.createElement("ul");
+            constructDom(dom, subul, attribute["child"]);
+            li.appendChild(subul);
+            ulElem.appendChild(li);
+          }
+          //ulElem.appendChild(li); // これなんだっけ
         }
-        ulElem.appendChild(li);
       }
     }
-  }
 }
 
-const tree = createTree(asciidocPaths);
+// 記事を一式取得
+const pattern = path.join(articleDir, "**/*.asciidoc");
+const articlePaths = await globFiles(pattern);
+const articleTree = createTree(articleDir, articlePaths);
 
+// 記事のDOMを構築
 const dom = new JSDOM(`<!DOCTYPE html><ul></ul>`);
-const element = dom.window.document.querySelector("ul");
-constructDom(dom, element, tree);
+constructDom(dom, dom.window.document.querySelector("ul"), articleTree);
+
+// ブログを一式取得
+const blogPaths = await globFiles(path.join(blogDir, "**/*.asciidoc"));
+const blogTree = createTree(blogDir, blogPaths);
+
+// ブログのDOMを構築
+const blogDom = new JSDOM(`<!DOCTYPE html><ul></ul>`);
+constructDom(blogDom, blogDom.window.document.querySelector("ul"), blogTree);
 
 // ページの出力を行う
-for(const asciidocPath of asciidocPaths) {
+for(const asciidocPath of articlePaths) {
   const doc = asciidoctor.loadFile(asciidocPath);
   let htmlStr = nunjucks.render(`${templateDir}/index.html`,  {
     article: doc.convert(),
@@ -141,7 +152,7 @@ for(const asciidocPath of asciidocPaths) {
     sidemenu: dom.window.document.body.innerHTML,
   });
 
-  const outputDir = path.join(distDir, path.relative(asciidocDir, path.dirname(asciidocPath)));
+  const outputDir = path.join(distDir, path.relative(articleDir, path.dirname(asciidocPath)));
   const outputFile = path.parse(asciidocPath).name + '.html';
   const outputPath = path.join(outputDir, outputFile);
 

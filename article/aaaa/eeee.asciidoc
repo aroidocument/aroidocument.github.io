@@ -1,2 +1,0 @@
-:page-pariority-key: 2
-= 追加ページ
