@@ -3,8 +3,8 @@
 
 = 問い合わせ
 
-記事内容の指摘などはこちらでissueを投稿してもらえると嬉しいです。
+記事内容の指摘などは、githubのアカウントを持っている場合は日本語でissueを投稿してもらえると嬉しいです。
 https://github.com/aroidocument/aroidocument.github.io/issues
 
-メールの場合こちらまで
+メールの場合こちらまで(確認頻度は遅めです)
 aroidconfluence@outlook.jp

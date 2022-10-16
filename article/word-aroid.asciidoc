@@ -1,0 +1,208 @@
+:hardbreaks:
+
+= サトイモ科の英用語の適当なまとめ
+
+サトイモ科植物を調べていると時折登場するものの意味が分からない言葉をサトイモ科植物を主眼に意味をまとめました。
+調べてもはっきりしないものが多く内容は結構適当なのでご了承ください。
+
+// 英単語をアルファベット順に並び替え
+++++
+<style>
+</style>
+<script>
+window.addEventListener('load', (event) => {
+  const container = document.querySelector(".article table tbody");
+  console.log(container)
+  if(container) {
+      [].slice.call(container.querySelectorAll('tr'))
+      .map(function(v){
+          const value = v.getElementsByTagName('p')[0].textContent.toLowerCase()
+          return { dom: v, value };
+      })
+      .sort(function(a,b){ if(a.value > b.value) {
+          return 1;
+        } else if(a.value < b.value) {
+          return -1;
+        } else {
+          return 0;
+        }})
+      .forEach(function(v){ container.appendChild(v.dom); });
+  }
+});
+</script>
+++++
+
+[%autowidth]
+|===
+|名前|説明
+
+|Araceae
+|サトイモ科の事
+
+|Acoraceae
+|ショウブ科のこと。サトイモ科に近縁な科なので時折比較される。
+
+|Tuber
+|地下に作られる芋の事。
+同じく芋を指すCormという単語があるが、クワズイモのように長くて茎状の物をTuber。Colocasia(サトイモ)のように球状の物をCormと呼ぶことが多いように見える。
+
+|Arum
+|Arum属の事。Arum属はサトイモ科の基準属のためサトイモ科全体の事を指す時や、一般的なサトイモ科植物を指すために使われることがある。
+
+|Stolon
+|ランナーや匍匐茎と呼ばれる親株が子株を増やすために作る長細い茎。
+
+|Pedatifid
+pedatisect
+|複葉の事。一つの葉が分割
+
+|Spadix
+|肉穂花序。サトイモ科の花の中でも真に花の部分。よく花の中央で伸びている棒状の部分。
+
+|Molecular systematics
+Molecular phylogenetics
+|分子系統学。
+遺伝子に関連する物質を使用して分析する手段。
+それなりに信頼度の高い手法で比較的最近の手法のため、植物の形態から作られた旧来の分類が分子系統学の影響で見直しが行われることが多い。
+特にSchismatoglottideae族は分子系統学の影響でものすごく見直されそうな雰囲気がある。
+
+|Rheophyte
+|渓流植物。非常に流れの早い所を住処にする植物のこと。
+Schismatoglottideae族とHomalomeneae族に多く、大抵はササ状だったり長細い頑丈な葉を持っている種が多い。
+
+|Staminode
+|花粉を生成しない雄しべ状の器官。
+花で種を見分ける際の特徴になる。
+
+|Limb
+|仏炎苞の先端。
+Schismatoglottideae族では開花後にここだけ落ちて無くなる種が多く分類に使われることがある。
+
+|Convolute vernation
+|新芽の巻かれ方。葉全体を一方向から巻いているもの。
+例えば近縁なクリプトコリネとラゲナンドラの比較でクリプトコリネがConvolute vernationに該当し、ラゲナンドラがInvolute vernationに該当するのでこの特徴で見分けることができる。
+関連: Involute vernation
+
+|Involute vernation
+|新芽の巻かれ方。主脈を中心に左右から巻かれているもの。
+サトイモ科だと珍しいがいくつかの種が該当する。
+例えば近縁なクリプトコリネとラゲナンドラの比較でラゲナンドラがInvolute vernationに該当するのでこの特徴で見分けることができる。
+関連: Convolute vernation
+
+|Hemiepiphytes
+|半着生植物の事。着生植物だが地上でも暮らせる植物。
+半着生植物は地面で発芽して樹木の幹のふもとを探すが、この時になるべく暗い方向に伸びる場合が多い。これは木の幹のふもとは幹の影になって暗いことが多いためだと考えられている。
+幹にたどり着いたら幹に張り付いて登り始めるが、この時は光の強い上方向に成長する。
+ちなみに着生植物の事はEpiphytesと言う。
+
+|Pinnatisect
+|葉の形態の一つ。羽状に切れ込みの入る葉の中でも主脈近くまで裂けているものを指す。
+ここらへんが詳しい。
+Cercestis属やAnchomanes属の成葉が該当する。
+https://en.wikipedia.org/wiki/Glossary_of_leaf_morphology
+//QUOTE https://www.ei-navi.jp/dictionary/content/pinnatisect/
+//QUOTE https://en.wikipedia.org/wiki/Pinnation
+
+|trichosclereid
+|草食動物に食べられないために針状で分岐している細胞の事。
+サトイモ科植物だと草食動物に食べられないためにシュウ酸カルシウムの針を持つことが多いが、それに加えてtrichosclereidを持つ種もいる。
+たぶん食べると痛い。
+
+|ligule|
+
+|Helophyte
+Helophytic
+|湿地性の事
+
+|Spathe
+|仏炎苞のこと。
+サトイモ科の花全体の中で肉穂花序の後ろにあるもの。
+
+|Blade
+|
+
+|Rhizome
+|根茎や芋のこと。
+
+|Phylogenetic tree
+|系統樹
+
+|Taxonomy
+|分類学、分類法。
+Taxonomyと書かれた資料を探すと大抵植物の特徴から種を見分ける方法が解説されている。
+
+|Geophytes
+|地下に芋や茎などの栄養を貯蔵する仕組みのある植物の事。
+サトイモ科では主に芋を作る種が該当する。
+//QUOTE https://www.floridamuseum.ufl.edu/science/five-facts-geophytes/
+
+|Stem pleionanthic
+|シュートが終了した後(サトイモ科のsymposiaは花で終了する)、次のシュートがシュートの先端から出る種。
+次のシュートはうまく繋がってるのであまりシュートが終了した感のない。サトイモ科では一般的。
+
+|Stem hapaxanthic
+|シュートが終了した後(サトイモ科のsymposiaは花で終了する)、次のシュートがシュートの下部から出る種。
+進化が進んだ一部のスキスマトグロッティスとOrontioideaeで見られる。
+//TODO Orintioideaeもそうなんだっけ
+
+|Fenestrate
+|窓のある.
+モンステラとかのことですね
+
+|Peltate
+|colocasiaやarocasiaの幼葉のように葉の後部が結合して丸くなった葉。
+
+|Prophyll
+|成長点を作るために新葉や茎をを作るために使われるカタフィル
+|inflorescence|花をつけるために作られる枝。
+
+|Monophyllous
+|単葉。
+コンニャクなどのように一枚の葉を分割して子葉を作らないものの事だと思う。
+
+|Heteroblasty
+|環境や成長に応じて葉などの形態を変えること。
+特にツル性のサトイモ科植物では成長するに従って幼葉から成葉に変化することが種が多い。
+例えば、通常飾られているポトスはしずく状かハート型の小さい葉を作るがこれら幼葉で、ヘゴなどに登はんさせると丸くて切れ込んだりするmiddle adultな葉を作る。野生などでもっと成長するとサイズか大きく葉先にかけて長い成葉を作る。
+
+|Midrib
+|葉の中央を長ける葉脈。
+殆どのサトイモ科植物に存在するがギムノスタキス属とPistia属(ボタンウキクサ)にのみ存在しない。
+//TODO ウキクサはmidribがない?
+
+|Petiole
+|枝と葉の間にある細長い部分もとい葉柄の事。
+
+
+|petiole sheath
+|葉柄についてる新芽を作るための器官
+
+|sympodium
+|分枝の事。
+サトイモ科だと花を咲かせた後に終了したシュートから再度茎を成長させるために分枝を作る。
+
+|bulbil
+|株の上で発生する子株。
+サトイモ科だと珍しいがいくつか存在する。
+Remusatia属だと新芽だらけの匍匐茎をつくる。
+Amorphophallus bulbiferは葉柄や葉の上に芋を作る
+Amorphophallus Dracontioidesは葉柄や葉の上に芋を作る
+Amorphophallus Dracontiumは葉柄や葉の上に芋を作る
+Pinellia属は葉柄の上に新芽を作る。
+
+|flagellae
+|直訳すると鞭毛だが、flagellaeはサトイモ科特有の器官を指す言葉。
+flagellaeはカタフィルだけを持つ匍匐茎(モンステラ亜科の種を過酷な環境においた時に時にたまに見る気がする)。flagellaeを伸ばして新しい木に到達できると花を作ろうとするらしい?
+
+|cataphyll|植物が特殊な用途のために作る特殊な葉。
+サトイモ科だと成長点を失った株が新葉を作るために使われることが多い(これはprophyllと呼ばれる)
+
+|geniculum|サトイモ科特有の器官を指す言葉。葉柄と葉の間にある膨らんだもので光を効率的に集めるために葉の向きを変える用途で使われるらしい。
+
+|shoot|主に茎を中心として葉など一連の器官を指す言葉(枝)。
+茎が分岐するとそこは別のシュートということになる。
+開花後に発生した茎は別シュートという扱いらしい(シュートは花で終わる)。
+
+|Tasche|pistia ウキクサ
+
+|===

@@ -5,7 +5,9 @@
 :root {
     --main-bg-color: rgb(255 255 255);
     --main-component-color: rgb(243 241 236);
+    --main-text-color: #172B4D;
     --main-link-color: rgb(111, 136, 141);
+
     --main-link-visited-color: rgb(111, 136, 141);
     --main-link-hover-color: rgb(111, 136, 141);
     --main-link-active-color: rgb(111, 136, 141);
@@ -17,13 +19,13 @@ a:active {color: var(--main-link-color);}
 body {
   margin: 10px;
   font-family: 'Avenir','Helvetica Neue','Helvetica','Arial', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro','メイリオ', 'Meiryo', '游ゴシック', 'Yu Gothic', 'ＭＳ Ｐゴシック', sans-serif;
-  color: #172B4D;
+  color: var(--main-text-color);
   background-color: var(--main-bg-color);
 }
 .wrapper {
   display:grid;
   grid-template-rows: 40px fit-content(100px) auto;
-  grid-template-columns: fit-content(100px) auto;
+  grid-template-columns: 200px auto;
   height: 100%;
   grid-template-areas:
       "sd hd"
@@ -55,11 +57,16 @@ body {
   grid-area: hd;
   text-align: center;
   border-radius: 4px;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .header h1 {
   margin: 2px;
   font-size: 20px;
+}
+.header a {
+  text-decoration: none;
 }
 .sidebar {
   grid-area: sd;
@@ -74,23 +81,20 @@ body {
   grid-area: bd;
   background-color: aliceblue;
   line-height: 1.6;
-  padding: 15px;
+  padding: 70px;
   border-radius: 4px;
   background-color: var(--main-component-color);
 }
-
-.article th,td {
-    border: solid 1px;
-    word-break: keep-all;
-    vertical-align: top;
-    padding: 8px;
-}
-/*一覧ページ独特の制御*/
 .article td {
   word-break: keep-all;
 }
 .article td:last-child {
   word-break: normal;
+}
+.article th,td {
+    border: solid 1px;
+    vertical-align: top;
+    padding: 8px;
 }
 
 .article table {
@@ -121,9 +125,12 @@ body {
   top: 20px;
   position: sticky;
 }
-.sidebar-menu a,span {
-  word-break: keep-all;
+.sidebar-menu li {
+  margin-bottom: 5px;
 }
+/*.sidebar-menu a,span {
+  word-break: keep-all;
+}*/
 </style>
 <div class="wrapper">
 
@@ -138,7 +145,7 @@ body {
           {{sidemenu | safe}}
       </div>
     </nav>
-    <header class="header component"><h1>サトイモ科園芸図鑑</h1></header>
+    <header class="header component"><a href="/"><h1>サトイモ科園芸図鑑</h1></a></header>
     <article class="article component">
       <main>
         <h1>{{title}}</h1>
