@@ -1,0 +1,62 @@
+:hardbreaks:
+
+= 2022-01-02 para-rheophyteってなんだろう
+
+どの本で読んだか覚えていないが、ホマロメナ属はあまり水辺の生活に適応して進化しておらず、自分の好きなジメジメした土を求めていたら水辺や渓流に行き着いた感じの植物という話を聞いたことがある。
+ブセファンドラやクリプトコリネに比べると鉢でも元気に育つホマロメナはたしかにそういうところがあるかもしれないとは思っていたものの、水辺の生活に適応するって具体的にどういうことなんだろうと思っていた。
+
+Philonotion属について調べていた時、情報が少なすぎるので避けていた論文を軽く見てみることにした（難しそうなのでいつも避けている）。
+その時、下記のような記述を見つけた。
+
+https://www.researchgate.net/publication/233702009_Molecular_phylogeny_of_tribe_Schismatoglottideae_Araceae_based_on_two_plastid_markers_and_recognition_of_a_new_tribe_Philonotieae_from_the_neotropics
+
+> The term “para-rheophyte” is used here to indicate spe-cies with no clear morphological adaptations to rheophytism (stenophylly, disarticulation of vegetative units, dispersal mechanisms favouring water, etc.), but nonetheless occuring in habitats that are indundated on a regular basis.
+
+自動翻訳に手を加えたのが下記
+
+> ここでは、rheophyteに対する明確な形態的適応（細葉化、植生ユニットの分断、水を好む分散の仕組みなど）を持たないが、定期的に起伏のある環境に生息する種を「para-rheophyte」と呼ぶことにした。
+
+para-とは似るとか近くとかそういう意味の接頭辞らしい。雑に訳するなら渓流植物ぽい植物だろうか。
+
+Schismatoglottideae亜属を念頭に置いてホマロメナとかは対象ではないかもしれないが渓流などに適応する植物は下記の様な進化しているらしい。
+
+* stenophylly（細葉化）
+* disarticulation of vegetative units（植生ユニットの分断）
+* dispersal mechanisms favouring water（水を好む分散の仕組みなど）
+
+== それぞれ調べてみた
+
+=== stenophylly
+
+stenophollyって単語が何なのかよくわからなかったもののどうやら葉が細いとかそういう系の意味らしい。
+https://en.wiktionary.org/wiki/stenophyllus#Latin
+
+確かに流れの強い渓流に生息する植物はAridarumのように細長い葉を持っている事が多い気がする。
+それに対してホマロメナは渓流近くに住んでいるのに丸い葉のものが多いような気もする（一部細い葉の種もいる）。Schismatoglottisも丸い葉を持っている。
+
+=== disarticulation of vegetative units
+
+調べても謎が深かった。
+disarticulationという言葉は植物が事前に準備しておくことで決まったところから分離できるようすることに対して使うような雰囲気がある。
+http://w3.biosci.utexas.edu/prc/DigFlora/BERB/BERB-absciss.html
+
+一体どこを分離するんだろう。葉？。子株？他？
+
+=== dispersal mechanisms favouring water
+
+dispersalは主に種子などが分散するとかそういう現象を表す言葉に見える（種子以外で使われている場合もあるようだが）。
+つまり、水辺に特化した繁殖する仕組みを持っているとかそういうことだと思う。
+
+https://eow.alc.co.jp/search?q=dispersal
+
+ブセファンドラなどは仏炎苞がカップ状になることで雫が入ったときに勢いよく種子が飛んでいくようにしているというが、そういう渓流などに特化した分散をしているという事だろうか。
+確かにホマロメナは陸生のサトイモ科植物と同様の果実の作り方をしているような気がする。Schismatoglottisはブセファンドラのように仏炎苞の上が切れてカップになりかかるところがあり少し渓流生活に適応し始めている感じがあるかもしれない。
+
+== まとめ
+
+正直良くわからなかった。
+こういう知識はどのようなところにまとまっているんだろう…。修行が必要そうだと感じた。
+
+== 追記
+
+https://www.jstor.org/stable/24516787

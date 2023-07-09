@@ -1,0 +1,352 @@
+:hardbreaks:
+:sitetree-pariority-key: 6
+
+= 関連する英単語の雑なまとめ
+
+英語や専門用語は苦手なため避けたいもののサトイモ科の情報は英語に多い…。そこで、サトイモ科植物を調べていると時折登場するものの意味が分からない言葉をサトイモ科植物を主眼に意味をまとめました。
+英語が得意ではないことと、植物の専門用語について詳しくなく内容は結構適当なのでご了承ください。
+
+// 英単語をアルファベット順に並び替え
++++
+<script>
+window.addEventListener('load', (event) => {
+  const container = document.querySelector(".article table tbody");
+  console.log(container)
+  if(container) {
+      [].slice.call(container.querySelectorAll('tr'))
+      .map(function(v){
+          const value = v.getElementsByTagName('p')[0].textContent.toLowerCase()
+          return { dom: v, value };
+      })
+      .sort(function(a,b){ if(a.value > b.value) {
+          return 1;
+        } else if(a.value < b.value) {
+          return -1;
+        } else {
+          return 0;
+        }})
+      .forEach(function(v){ container.appendChild(v.dom); });
+  }
+});
+</script>
++++
+
+[%autowidth]
+|===
+|名前|説明
+
+|Araceae
+|サトイモ科の事
+
+|Acoraceae
+|ショウブ科のこと。サトイモ科に近縁なので度々比較される。
+ちなみにハナショウブは名前が似ているがアヤメ科なのでぜんぜん違う植物。
+
+|Amphibious
+|水陸両生。水中でも陸上でも育つ事のできる植物。
+サトイモ科では多数の種が該当するが一例を挙げるとホマロメナ属、スキスマトグロッティス属、クリプトコリネ属、アヌビアス属などが該当する。
+
+|Tuber
+|栄養を貯蔵するために作られる芋の事。
+サトイモ科の芋は基本的に茎が肥大化したものなので球茎や塊茎と言ったりする。
+
+特に垂直に成長して丸くなるものをCorm（球茎）。
+あまり一箇所が丸くならず這うように育つものをRhizome（地下茎）という
+//QUOTE [日本テンナンショウ属図鑑 p33]
+
+|Corm
+|地下に作られる芋のなかでも垂直に成長し丸くなるものの事。
+
+ColocasiaやArumなどが該当する。
+
+|Rhizome
+|地下茎や根茎と呼ぶ。
+地面や近いを這うように成長する茎。
+栄養を貯蔵するために太くなるものもいるがそうでもない種もいる。
+
+アヌビアス属などが該当して基本的に地表近くに作られることがおおいが、Nephthytis属やUlearum属は積極的に地下に潜ろうとする。
+
+|Arum
+|Arum属の事。
+ただ、Arum属はヨーロッパで最も一般的なサトイモ科植物で、サトイモ科の基準属であるため、この言葉はサトイモ科植物という意味で使われることも多い。
+
+例えばカラー(Zantedeschia属)の英語での一般名はArum lilyだったりする。
+
+|Stolon
+|ランナーや匍匐茎と呼ばれる親株が子株を増やすために作る長細い茎。
+
+|Stoloniferous
+|匍匐茎を伸ばすという意味の形容詞
+
+|Perigon
+Perianth
+|花被。花の周りを覆う花びらなどの事。
+注意したいところとして、サトイモ科の仏炎苞は花被ではなく総苞（involucre）と呼ばれる物。
+肉穂花序についているつぶつぶそれぞれが花に当たる。サトイモ科では花被はつぶつぶそれぞれに付いている。
+
+種を見分ける特徴として利用されることがある。
+//QUOTE [http://www2.odn.ne.jp/had26900/shokubutsu_no_bunrui/morph_var_flowers.htm]
+//QUOTE [https://plaza.rakuten.co.jp/okada1952/diary/201812220000/]
+
+|Pedatifid
+Pedatisect
+|複葉の事。一つの葉が分割
+
+|Spadix
+|肉穂花序。サトイモ科の花の中でも真に花の部分。よく花の中央で伸びている棒状の部分。
+
+|Molecular systematics
+Molecular phylogenetics
+|分子系統学。
+多くの場合DNAなどに関連する物質を使用して植物を比較分類する手法。
+今どきの手法で、従来の植物の形態を比較する手法に比べて精度が高い特徴がありサトイモ科に関わらず様々な植物の分類を刷新していっている。
+
+使用するDNAは何でもよいわけでは無いようで、以下のような物から選ばれているのをよく目にする。
+* ミトコンドリアのDNA（古い研究で多い？）
+* 葉緑素のDNA
+* 植物本体のDNAの遺伝子として使われていない部分（新しい研究で多い？）
+
+使ったDNAの種類やDNA同士の比較の手法によって様々な結果が出てくるので万能な手法ではないらしい。
+
+難しすぎてあまり内容が理解できないところが多い。
+Schismatoglottideae連は分子系統学の影響でものすごく見直されそうな雰囲気がある。
+
+|Rheophyte
+|渓流植物。
+水辺を好む植物は多いが、渓流などの水の流れの早い場所は植物が生息するには過酷だと言える。そのような地域に住処にするために進化した植物の事。
+渓流の早い流れに耐えるためにササ状だったり長細く頑丈な葉を持っている種が多い。サトイモ科だとSchismatoglottideae連に多い。
+
+Schismatoglottideae連やHomalomeneae連は主に陸生の種が多いが湿気を好むため、分布を広げていたら渓流に来てしまった種も多い。そういう種は渓流に適応して進化していないのでRheophyteなのか曖昧だったりする。
+
+|Staminode
+|花粉を生成しない雄しべ状の器官。
+この器官は種を見分ける際の特徴として使われることがある。
+
+|Stamen
+|雄しべ。
+
+この器官は種を見分ける際の特徴として使われることがある。
+
+例えば、Philodendron属とThaumatophyllum属はStamenの長さで見分けることができるらしい。
+//TODO 雄しべで見分ける話は1990年の話で分子的な研究があって属に格上げしたはずだから怪しいかもしれない
+//QUOTE [https://www.digital-museum.hiroshima-u.ac.jp/~main/index.php?title=Staminode/staminodium&mobileaction=toggle_view_desktop]
+//QUOTE pholodendronの話 [https://cate-araceae.myspecies.info/node/4066]
+
+|Limb
+|仏炎苞の先端。
+Schismatoglottideae連では開花後にここだけ落ちて無くなり仏炎苞がカップ状になる種が多く分類に使われることがある。
+
+|Convolute vernation
+|新芽の巻かれ方の一つで、葉全体を一方向から巻いているものを指す。
+例えば近縁なクリプトコリネとラゲナンドラの比較では、多くの場合クリプトコリネがConvolute vernationに該当し、ラゲナンドラがInvolute vernationに該当するのでこの特徴から属を見分けることができる。
+関連: Involute vernation
+
+|Involute vernation
+|新芽の巻かれ方。主脈を中心に左右から巻かれているもの。
+サトイモ科だと珍しいがいくつかの種が該当する。
+例えば近縁なクリプトコリネとラゲナンドラの比較でラゲナンドラがInvolute vernationに該当するのでこの特徴で見分けることができる。
+関連: Convolute vernation
+
+|Hemiepiphytes
+|半着生植物の事。着生植物だが地上でも暮らす段階がある植物。
+
+半着生植物は地面で発芽して樹木の幹のふもとを探すが、この時になるべく暗い方向に伸びる場合が多い。これは木の幹のふもとは幹の影になって暗いことが多いためだと考えられている。
+幹にたどり着いたら幹に張り付いて登り始めるが、この時は光の強い上方向に成長する。
+ちなみに着生植物の事はEpiphytesと言う。
+
+|Pinnatisect
+|葉の形態の一つ。羽状に切れ込みの入る葉の中でも主脈近くまで裂けているものを指す。
+ここらへんの記事が詳しい。
+https://en.wikipedia.org/wiki/Glossary_of_leaf_morphology
+Cercestis属やAnchomanes属の成葉が該当する。
+//QUOTE https://www.ei-navi.jp/dictionary/content/pinnatisect/
+//QUOTE https://en.wikipedia.org/wiki/Pinnation
+
+|Trichosclereid
+|植物の体の中で作られる針が多数生えた硬い細胞の事。草食動物に食べられないための器官だと言われている。
+
+サトイモ科植物だと草食動物に食べられないためにシュウ酸カルシウムの結晶(針)を持つことが多いが、それに加えてTrichosclereidを持つ種がいる。
+たぶん食べると痛い。
+
+|Ligule
+|小舌や葉舌と言う。
+単子葉植物で葉と茎の間にある部位。平べったかったり毛状だったりする。
+
+サトイモ科植物との関連はあまり覚えてない（どの種も持ってたりする？）。
+多分、分類する際に使う時がある。
+//QUOTE [https://apps.lucidcentral.org/rainforest/text/features/l_leaf_ligule.htm]
+
+|Helophyte
+Helophytic
+|湿地性の植物の事。水中に生えているが芽が水上に出ているような植物の事だと思われる。
+サトイモ科にはこの手の植物が多い。例えばキルトスペルマ属、ミズバショウ属、Montrichardia属などはそういう生活をしている種がほとんど。
+
+関連項目: Rheophyte
+//QUOTE https://torontobotanicalgarden.ca/blog/word-of-the-week/botanical-nerd-word-helophyte/
+
+|Spathe
+|仏炎苞のこと。
+サトイモ科の花全体の中で肉穂花序の後ろにあるもの。
+
+仏炎苞に包まれている棒のようなものは肉穂花序（Spadix）という
+
+|Blade
+|葉身、葉片の事。
+
+|Phylogenetic tree
+|系統樹。
+
+属名 + Phylogenetic treeとかで調べると楽しい。
+
+|Taxonomy
+|分類学、分類法。
+書籍でTaxonomyと書かれた項目を探すと大抵植物の特徴から種を見分ける方法が解説されている。
+
+|Geophytes
+|地下に芋や茎などの栄養を貯蔵する仕組みのある植物の事。
+サトイモ科では主に芋（球茎や根茎）を作る種が該当する。
+//QUOTE https://www.floridamuseum.ufl.edu/science/five-facts-geophytes/
+
+|Stem pleionanthic
+|花が咲いてシュートが終了した後、次のシュートがシュートの先端から出る種。
+このタイプでは次のシュートはうまく繋がってるのであまりシュートが終了した感のない。
+サトイモ科では一般的だと思われる。
+
+正直良くわからない
+
+|Stem hapaxanthic
+Hapaxanthic shoot
+|シュートが終了した後、次のシュートがシュートの下部から出る植物の事？
+進化が進んだ一部のスキスマトグロッティス、Philonotion、Orontioideaeで見られる？
+
+あんまりわからない
+//TODO Orintioideaeもそうなんだっけ
+
+|Fenestrate
+|窓のある。
+モンステラなどの葉に穴のある葉とかのことですね。
+
+|Peltate
+|ColocasiaやArocasiaの幼葉のように葉の後部が結合して丸くなった葉。
+
+|Prophyll
+|シュートを作る際に芽を保護するために作られるCataphyllのようなもの。
+サトイモ科では成長点を失った株が新しい成長点を作る際にも作ることが多い。
+//QUOTE [https://www.frontiersin.org/articles/10.3389/fpls.2022.855146/full]
+
+|Cataphyll
+|植物が特殊な用途のために作る特殊な葉。
+Cataphyllは様々な場面で登場する。
+
+//サトイモ科だと成長点を失った株が新葉を作るために使われることが多い(これはProphyllと呼ばれる)
+
+|Mesophyll
+|
+
+|Inflorescence
+|花序
+
+|Monophyllous
+|単葉。
+コンニャクなどのように一枚の葉を分割して子葉を作らないものの事だと思う。
+
+|Heteroblasty
+|環境や成長に応じて葉などの形態を変えること。
+特にツル性のサトイモ科植物では成長するに従って幼葉から成葉に変化することが種が多い。
+例えば、通常飾られているポトスはしずく状かハート型の小さい葉を作るがこれら幼葉で、ヘゴなどに登はんさせると丸くて切れ込んだりするmiddle adultな葉を作る。野生などでもっと成長するとサイズか大きく葉先にかけて長い成葉を作る。
+
+|Midrib
+|葉の中央を走る葉脈。
+殆どのサトイモ科植物に存在するがギムノスタキス属とPistia属(ボタンウキクサ)には存在しない。
+//TODO 本当にウキクサはmidribがない?
+
+|Petiole
+|枝と葉の間にある細長い部分もとい葉柄の事。
+
+|petiole sheath
+|葉柄についてる新芽を作るための器官
+
+|Sympodium
+|分枝の事。
+
+色々調べたものの何を指しているのか掴めそうでつかめない単語。
+https://www.biol.tsukuba.ac.jp/~algae/BotanyWEB/shoot.html
+// サトイモ科だと花を咲かせた後に終了したシュートから再度茎を成長させるために分枝を作る。
+
+|Bulbil
+|植物の地上部で発生する子供の植物。むかごや小球根と呼ばれる。
+種子での繁殖にているが、むかごは栄養繁殖で単為生殖なのが特徴。
+
+Pinellia属（ハンゲ属）ではむかごを作る種はあまり種子をつくらないが、むかごを作らない種は花をよく咲かせる（種をよく作る）と言われるので種を使うかむかごを使うかは何かしらの戦略性がありそうに見える。
+//QUOTE [筆者の推測　ハンゲ属は育てたこと無いので育ててる人のブログとかを流し見した]
+
+サトイモ科植物の繁殖方法としては珍しいが、いくつか種でむかごを作ることができる。
+
+* Remusatia属は匍匐茎が地上に飛び出て毛むくじゃらのむかごをつくる場合がある
+* Amorphophallus属(コンニャク)では葉柄や葉の上に芋を作る種かいる
+// Bulbifer Dracontioides Dracontium
+* Pinellia属は葉柄の上に新芽を作る種がいる
+// Pinellia pedatisectaはむかごをつけないが種を多くつくる
+
+|Flagellae
+|直訳すると鞭毛だが、サトイモ科の文脈ではサトイモ科植物特有の器官を指す言葉。
+
+Flagellaeはカタフィルや小さい葉を持つ細長い枝でモンステラなどのツル性の種が主に作る。
+どことなく芋を作るサトイモ科植物のランナーによく似ているので関連があるんじゃないかと思う。
+
+モンステラではFlagellaeはある程度着生先の木に登りきった時に次の着生先の木を探すために地面に降りるために使われるらしい。園芸をしている感じでは極度に乾燥させたり、肥料をやらなかったり、暗いところにおいたり、植物を弱らせたりすると逃げ出すように出てくることが多い気がする。
+
+|whorl
+|
+
+|Geniculum
+|サトイモ科特有の器官を指す言葉。葉柄と葉の間にある膨らんだ部分で光を効率的に集めるために葉の向きを変える用途で使われるらしい。
+
+|Shoot
+|主に茎を中心として葉など一連の器官を指す言葉(枝)。
+茎が分岐するとそこは別のシュートということになる。
+
+意味がわかりそうで未だによくわからない単語の一つ。
+https://www.biol.tsukuba.ac.jp/~algae/BotanyWEB/shoot.html
+
+//TODO 仮軸分枝とかを書きたい
+//ややこしいところで、シュートは花で終わる。そのため、花の開花後に再度できた成長点は一つの枝ように見えても別のシュートということになる。
+//花の咲き方も色々ありシュートを終われせない咲かせ方をする時もあるので注意（主にアンスリウム亜科）。
+
+|Section
+|節。属内の種を分類するときに使われるグループの一つ。
+属内の種を分類する際には亜属（subgenera）なども使われる。
+
+|Raphide
+|シュウ酸カルシウムが結晶化して針状になったもの
+
+|Posterior lobes
+|俗にいう葉の耳の事。即裂片と呼ぶ？
+葉柄と葉の接続よりも後ろの部分。葉先にかけての部分をAnterior lobeと呼ぶらしい。
+//QUOTE [https://www.facebook.com/thegreenmindedshop/photos/a.2427336137353509/3183285465091902/?type=3]
+
+|Palaeotropical
+|
+
+|Pleiophyllous sympodium
+|通常葉が一つしかつかないようなところに複数葉がついている状態の事らしい。
+
+Pholodendron亜属とPteromischum亜属を見分けるために必要な形質らしいが何の話をしているのか謎。
+//QUOTE [https://www.thefreedictionary.com/Pleiophyllous]
+
+|Lithophytic
+|
+
+|Laticifer
+|
+
+|Parapatric
+|
+
+|Arborescent
+|樹木状
+
+|===
+
+
+//MEMO https://mikawanoyasou.org/yougo/shokubutuyougo-ei.htm

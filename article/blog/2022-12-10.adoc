@@ -1,0 +1,17 @@
+:hardbreaks:
+
+= 2022-12-10 colocasia fallaxの耐寒性
+
+Colocasia fallaxの英語のWikipedia記事でははUSDAの8から10の地域で観葉植物として利用されると書いてあるように見える。
+https://en.wikipedia.org/wiki/Colocasia_fallax
+
+USDAの8の地域は最低気温-10度くらいまで行くようだがColocasia fallaxが-10度近くまで耐えられるということだろうか。
+それとも主に使われるだけで-10度も行くと枯れてしまって来年新芽が生えるという感じだろうか。気になる。
+
+Wikipediaの引用を確認するとこの情報は下記のミズーリ植物園の情報を参考にしているようだった。
+https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=276339
+
+近縁種のColocasia esculentaの記事を見てみると、fallaxと同じくUSDA 8〜10で説明文に書いてあった。
+Colocasia esculentaは20度を下回り始めると葉が枯れ初めて球茎で冬越しをする種のハズなので、USDA 8のゾーンで葉を展開したまま冬越しすることはできないはずで、Colocasia fallaxも同様なんじゃないかと思った。
+https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=269611&isprofile=0&
+
