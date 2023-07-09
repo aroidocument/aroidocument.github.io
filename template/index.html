@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<meta charset="UTF-8">
+<title>{{title}} - サトイモ科ジャンク情報</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="/style.css">
+<img style="display: none;" referrerpolicy="unsafe-url" src="http://analytics.ivy-box.net/pixel.gif">
+<div class="wrapper">
+    <nav class="sidebar component">
+      <div class="sidebar-menu">
+        {{sidemenu | safe}}
+      </div>
+    </nav>
+    <header class="header component">
+      <a href="/">
+        <div class="title">
+          <h1>
+            <div class="first">サトイモ科</div>
+            <div class="second">ジャンク情報</div>
+          </h1>
+        </div>
+      </a>
+    </header>
+    <article class="article component">
+      <main>
+        <h1>{{title}}</h1>
+        {{article | safe}}
+      </main>
+    </article>
+</div>
+<script>
+const elems = document.getElementsByClassName("inline-quote");
+for(let i = 0;i<elems.length;i++) {
+  const elem = elems[i];
+  const titleElems = elem.getElementsByClassName("title");
+  titleElems[0].addEventListener("click", () => {
+    const contentElems = elem.getElementsByClassName("paragraph");
+    if(contentElems[0].style.display == "block") {
+      // style属性が優先されてしまうので
+      contentElems[0].style = undefined;
+    } else {
+      contentElems[0].style.display = "block";
+    }
+    
+  })
+}
+</script>
+</html>

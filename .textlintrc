@@ -1,0 +1,25 @@
+{
+  "plugins": [
+    "asciidoctor"
+  ],
+  "filters": {
+    "comments": true
+  },
+  "rules": {
+    "preset-ja-spacing": true,
+    "preset-japanese": true,
+    "preset-ja-technical-writing": {
+        "ja-no-weak-phrase": false,
+        "max-kanji-continuous-len": {
+            "allow": [
+              "筑波実験植物園", 
+              "自然史博物館",
+              "熱帯落葉樹林",
+              "特定外来生物"
+            ]
+        },
+        "no-exclamation-question-mark": false
+    }
+    
+  }
+}

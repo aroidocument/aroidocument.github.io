@@ -1,0 +1,253 @@
+:root {
+    --main-bg-color: rgb(255 255 255);
+    --main-component-color: rgb(243 241 236);
+    --main-text-color: rgb(36, 70, 77);
+    --main-link-color: rgb(77, 102, 107);
+    --main-red-color: rgb(160, 101, 101);
+    --main-note-color: #eeece8;
+    --main-table-accent-color: #e0dfd8;
+    --serif-font: '游明朝','Yu Mincho',YuMincho,'Hiragino Mincho Pro',serif;
+    --gothic-font: 'Avenir','Helvetica Neue','Helvetica','Arial', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro','メイリオ', 'Meiryo', '游ゴシック', 'Yu Gothic', 'ＭＳ Ｐゴシック', sans-serif;
+}
+.red {
+  color: var(--main-red-color);
+}
+a:link {color: var(--main-link-color);}
+a:visited {color: var(--main-link-color);}
+a:hover {
+  /*color: var(--main-link-color);*/
+  color: color-mod(var(--main-link-color) shade(50%));
+}
+a:active {color: var(--main-link-color);}
+body {
+  margin: 10px;
+  font-family: var(--gothic-font);
+  color: var(--main-text-color);
+  background-color: var(--main-bg-color);
+}
+.wrapper {
+  display: grid;
+  grid-template-rows: 80px fit-content(100px) auto;
+  grid-template-columns: 320px auto;
+  height: 100%;
+  grid-template-areas:
+      "hd bd"
+      "sd bd"
+      "sd bd";
+  row-gap: 10px;
+  column-gap: 10px;
+
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 94.625em;
+}
+.component {
+  background-color: var(--main-component-color);
+  box-shadow: 4px 4px 12px rgb(18 47 61 / 50%);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(217 215 210);
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    grid-template-columns: auto;
+    grid-template-rows: fit-content(100px) auto;
+    grid-template-areas:
+        "hd"
+        "bd"
+        "sd";
+  }
+}
+.header {
+  grid-area: hd;
+  text-align: center;
+  border-radius: var(--main-corner-radius);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.header .title {
+  display: inline-block;
+  font-family: var(--serif-font);
+}
+.header h1 {
+  font-weight: bold;
+  font-size: 10px;
+  color: var(--main-red-color);
+  padding: 6px;
+  margin: 0px;
+  text-align: left;
+}
+.header h1 .first {
+  font-size: 15px;
+  line-height: 1.0em;
+}
+.header a {
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+}
+.sidebar {
+  grid-area: sd;
+  padding: 10px;
+}
+.footer {
+  background-color: rgb(109, 116, 123);
+}
+.article {
+  grid-area: bd;
+  line-height: 1.6;
+  padding: 70px;
+  border-radius: var(--main-corner-radius);
+  word-break: break-all;
+}
+.article h1,h2,h3 {
+  font-family: var(--serif-font);
+}
+.article h1 {
+  font-size: 1.8em;
+}
+.article .tableblock h2 {
+  font-size: 1.0em;
+}
+
+.article .tableblock .paragraph:first-child p, .article .tableblock > p:first-child {
+  display: block;
+  margin-block-start: 0.25em;
+  margin-inline-start: 0px;
+}
+.article .tableblock .paragraph:last-child p, .article .tableblock > p:last-child {
+  display: block;
+  margin-block-end: 0.25em;
+  margin-inline-end: 0px;
+}
+.article .tableblock td {
+  word-break: keep-all;
+}
+.article .tableblock thead {
+  background-color: var(--main-table-accent-color);
+}
+.article .tableblock tr:hover {
+  background-color: var(--main-table-accent-color);
+}
+.article .tableblock td:last-child {
+  word-break: normal;
+}
+.article .tableblock th,
+.article .tableblock td {
+    border: solid 1px;
+    vertical-align: top;
+    padding: 8px;
+}
+.article .note {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  background-color: var(--main-note-color);
+}
+.article .note td:first-child {
+  border-right-width: 4px;
+  border-right-style: solid;
+  word-break: keep-all;
+}
+.article .note th,
+.article .note td {
+    padding: 8px;
+}
+@media screen and (max-width: 600px) {
+  .article .tableblock tr:hover {
+    background-color: inherit;
+  }
+  .article {
+    padding: 20px;
+  }
+  .article .tableblock td {
+    word-break: normal;
+    border-bottom: none;
+    display: block;
+    width: 100%;
+  }
+  .article table.tableblock td:first-child {
+    background-color: var(--main-table-accent-color);
+  }
+  .article table.tableblock td:last-child {
+    border-bottom: solid 1px;
+    margin-bottom: 5px;
+  }
+  .article table.tableblock thead {
+    display: none;
+  }
+  .article table.tableblock {
+    font-size: 0.95em;
+  }
+  .article table.tableblock th,
+  .article table.tableblock td {
+    padding: 4px;
+
+  }
+}
+.article table.tableblock {
+  width: 100%;
+  border-collapse:  collapse;
+}
+.article table.tableblock thead tr {
+  /*テーブルのヘッダー*/
+  background-color: var(--main-table-accent-color);
+}
+.sidebar {
+  font-size: 13px;
+  padding-top: 20px;
+  border-radius: var(--main-corner-radius);
+}
+.sidebar ul {
+  margin-top: 5px;
+  margin-left: -20px;
+  margin-right: 5px;
+}
+.sidebar hr {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.sidebar-title {
+  text-align: center;
+  font-weight: bold;
+}
+.sidebar-menu {
+  top: 20px;
+  position: sticky;
+}
+.sidebar-menu li {
+  margin-bottom: 5px;
+}
+
+/**引用関連*/
+.inline-quote {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.inline-quote .title {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 10px;
+  width: fit-content;
+}
+.inline-quote .paragraph {
+  display: none;
+  background-color: var(--main-note-color);
+}
+.inline-quote .paragraph p {
+  display: block;
+  padding-block-start: 1em;
+  padding-block-end: 1em;
+  padding-inline-start: 0.8em;
+  padding-inline-end: 0.8em;
+}
+/*.inline-quote .title:hover +.paragraph {
+  display: block;
+}*/

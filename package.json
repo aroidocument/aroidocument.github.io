@@ -1,0 +1,33 @@
+{
+  "name": "aroidpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ts-node index.ts",
+    "watch": "ts-node index.ts && onchange './article/**/*.adoc' './template/*.html' -- npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/glob": "^8.1.0",
+    "@types/jsdom": "^21.1.1",
+    "@types/mkdirp": "^2.0.0",
+    "@types/nunjucks": "^3.2.2",
+    "asciidoctor": "^2.2.6",
+    "jsdom": "^20.0.1",
+    "mkdirp": "^1.0.4",
+    "nunjucks": "^3.2.3",
+    "onchange": "^7.1.0",
+    "textlint": "^12.5.1",
+    "textlint-filter-rule-comments": "^1.2.2",
+    "textlint-plugin-asciidoctor": "^1.1.0",
+    "textlint-rule-preset-ja-spacing": "^2.2.0",
+    "textlint-rule-preset-ja-technical-writing": "^7.0.0",
+    "textlint-rule-preset-japanese": "^7.0.0"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
