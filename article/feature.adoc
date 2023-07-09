@@ -1,0 +1,6 @@
+:hardbreaks:
+:sitetree-pariority-key: 5
+
+= 色々な観点でのまとめ
+
+{{pagemenu | safe}}

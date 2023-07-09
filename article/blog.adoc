@@ -1,0 +1,6 @@
+:sitetree-pariority-key: 10
+:hardbreaks:
+
+= 日記
+
+雑な事をメモするための記事です。
