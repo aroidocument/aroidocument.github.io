@@ -906,7 +906,7 @@ https://www.jstage.jst.go.jp/article/chiribunrui/69/1/69_0691-10/_pdf/-char/ja
 
 == Sauromatum venosum
 
-肉穂花序と仏炎苞は細長くインパクトのある形をしていて、仏炎苞が緑に赤のぶち模様が入るド派手な柄なためSauromatum属のなかでは園芸されることが多い。
+肉穂花序と仏炎苞が細長く見応えのある形をしている。仏炎苞が緑に赤のぶち模様が入るド派手な柄なためSauromatum属のなかでは園芸されることが多い。
 花が臭いためか道路など人が往来する所の近くで栽培することは推奨しないとミズーリ植物園の図鑑に書いてある。
 
 [.inline-quote]
@@ -915,6 +915,7 @@ https://www.jstage.jst.go.jp/article/chiribunrui/69/1/69_0691-10/_pdf/-char/ja
 生息地
 Aroids : Plants of the Arum Family p145
 
+ミズーリ植物園の図鑑
 https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=255908&isprofile=0&
 ****
 
@@ -1131,7 +1132,13 @@ http://araceum.abrimaal.pro-e.pl/arisarum/vulgare.htm[自生地の写真（※�
 
 マダガスカルに固有の連。乾季に休眠する特徴がある。
 花と花粉の構造がサトイモ科の中でも進化していると考えられている。
-//QUOTE 花と花粉の構造が [https://en.wikipedia.org/wiki/Colletogyne]
+
+[.inline-quote]
+.参考にしたもの
+****
+花と花粉の構造が
+https://en.wikipedia.org/wiki/Colletogyne
+****
 
 [%autowidth, cols="1,2,3a"]
 |===
@@ -1159,7 +1166,6 @@ http://araceum.abrimaal.pro-e.pl/arisarum/vulgare.htm[自生地の写真（※�
 芋を作る。
 
 http://www.aroidpictures.fr/GENERA/COLLETOGYNE/colletoperrieri.html[植物の写真（外部サイト）]
-
 
 |===
 
