@@ -3,14 +3,13 @@
 
 = 問い合わせ
 
-
-サイトへ改善案についてこちらに日本語でissueを投稿してもらうことができます。
-(githubのアカウントが必要です)
-https://github.com/aroidocument/aroidocument.github.io/issues
+管理者もそこまでサトイモ科に詳しいわけではないので情報等をわかりやすく教えていただけたら幸いです。
 
 メールでの場合こちらまで(確認頻度は遅めです)。
 +++
 <span>aroidconfluence&#64;outlook.jp</span>
 +++
 
-管理者もそこまでサトイモ科に詳しいわけではないので何か詳しい情報等を教えていただけたら幸いです。
+サイトへ改善案についてこちらにのissueページで投稿してもらうことができます。
+(githubのアカウントが必要です)
+https://github.com/aroidocument/aroidocument.github.io/issues

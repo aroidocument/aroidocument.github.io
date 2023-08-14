@@ -427,16 +427,25 @@ Heteropsis spruceana は、今日でもブラジルのアマゾニアでより�
 
 熱帯アメリカ大陸（中央アメリカから南アメリカ）が原産。熱帯雨林に生息し、地面から木に忍びよって登る半着生生活をする。
 
-モンステラ属は有名なサトイモ科植物の中でもかなり研究が進んでいない属のようで謎が深い（Monstera deliciosa単体はよく調べられている）。
-//QUOTE 研究が進んでいない [https://kerwa.ucr.ac.cr/handle/10669/80147]
+調べる感じモンステラ属はあまり研究が進んでいない属のようで謎が深い（Monstera deliciosa単体はよく調べられている）。
 
 == Monstera deliciosa
 
-一番有名なモンステラで属の基準種だがなかでも一風変わっている。
+一番有名なモンステラでこの属の基準種。
 熱帯アメリカ大陸の熱帯雨林の地面に生息する登はん性のあるツル植物。
 木に登っている最中などに茎が切れたりすると長い根を地面に多数伸ばし始める。茎が切れることを想定しているためが非常に乾燥に強い。
+他のモンステラ属の種とあまり似てないような気がする。
 
 地面から成長を始めるモンステラはジャングルの背の高い木の葉の隙間から差し込む光で光合成を行う。光はまだらに差し込むため広い範囲をカバーできる葉が有利になる。そこで、モンステラ属では葉に穴を開けて葉を作るコストを削減してその分大きく展開できるようにしていると言われている。
+
+
+[.inline-quote]
+.参考にしたもの
+****
+研究が進んでいないというのは著者の感想なものの
+ここにも研究が進んでいないと書いてあった
+https://kerwa.ucr.ac.cr/handle/10669/80147
+****
 
 |Rhaphidophora属
 |ラフィドフォラ
@@ -460,13 +469,13 @@ Heteropsis spruceana は、今日でもブラジルのアマゾニアでより�
 |ハート型で可愛げのある葉を展開するための園芸でそれなりに知られている。
 木や岩などに着生して折り重なるように葉を展開するので葉が左右非対称な事が多い。
 
-木に着生させて株を大きく成長させるとモンステラ属のような葉を展開するんじゃないかと思うがそういう情報が見当たらない。成熟しない？
+木に着生させて株を大きく成長させるとモンステラ属のように成熟した葉を展開するんじゃないかと推測しているもののそういう情報が見当たらない。成熟したりはしない？
 
 |Stenospermation属
 |
-|自力で直立することが得意な半着生植物。自力で直立できるため着生せずに林床などで暮らすこともある。
-スパスティフィラムに近縁。
-約50種と意外と種数が多い属。
+|自力で直立することが得意な半着生植物。自力で直立できるため他の木などに着生せず林床などで暮らすこともできる。
+スパスティフィラム属に近縁。
+54種ほど知られていて意外と種数が多い属。
 
 主に南アメリカに生息する。
 
@@ -474,11 +483,14 @@ Heteropsis spruceana は、今日でもブラジルのアマゾニアでより�
 |スパスティフィラム
 ササウチワ
 |深緑色のササ状の葉と、美しい花を咲かせる事で鑑賞価値が高いので園芸で非常に人気がある。根出草状の植物だが時折Rhodospatha属のような感じで茎を伸ばし始める。
-約50種と意外と種数が多い属。
+57種ほど知られている意外と種数が多い属。
 
 Aroideae亜科を除いた原始的なサトイモ科植物では、湿地以外の環境で根出草状の形態を取る種が少なく、Spathiphyllum属とHolochlamys属とAnthurium属しか知られていない。
 南アメリカと東南アジアの熱帯域に生息する。
 
+== Spathiphyllum lanceifolium
+
+スパスティフィラム属のタイプ種でよく売られている園芸種の原種。
 育てやすく成長が早いのですぐ増える。耐陰性が高く薄暗いところでもよく成長する。
 
 |Holochlamys属
@@ -494,7 +506,9 @@ Aroideae亜科を除いた原始的なサトイモ科植物では、湿地以外
 [#Lasioideae]
 == Lasioideae亜科（ラジア亜科）
 
-殆どの種が湿地に住み葉柄や茎に棘を持つ。原産地周辺では食用にされる種がいくつか存在する。
+殆どの種が湿地や川沿いなどに住む水が好きな亜科。
+サトイモ科では珍しい棘を葉柄や持つ。
+原産地周辺では食用にされる種がいくつか存在する。
 
 [%autowidth, cols="1,2,3a"]
 |===
@@ -521,18 +535,18 @@ Aroideae亜科を除いた原始的なサトイモ科植物では、湿地以外
 球茎の芋を作り、栽培しやすい訳では無いが古い時代から一部の種が東南アジアから中央太平洋にかけて食用にされていた。
 石灰土壌に強くツバルやキリバスなどのサンゴ環礁で作られた島では数少ない栽培可能な炭水化物として重宝されている。
 
+|Dracontium属
+|
+|ラジア亜科の中では特異な形質を多数持つ属としてよく紹介されてる。
+（が、どれくらい特異なのか実はあまり良く知らない）
+
+葉柄が長く模様があり、複葉を展開していて芋を持つことからコンニャクによく似ている所、花が小さく株に性別があるところがラジア亜科では他になく珍しい。
+アメリカ大陸、西インド諸島に生息する。
+
 |Dracontioides属
 |
 |Urospatha属とDracontium属に近縁だが近縁属と異なり葉に穴が開く特徴がある。
 湿地性の塊茎植物でブラジルに生息する。
-
-|Dracontium属
-|
-|ラジア亜科の中では特異な形質を多数持つ属としてよく紹介されてる（が、どこらへんが特異なのか実はあまり良く知らない）
-
-葉柄が長く模様があり、複葉を展開していて芋を持つことからコンニャクによく似ている。
-ラジア亜科の中では花が小さく株に性別があるところが珍しい。
-アメリカ大陸、西インド諸島に生息する。
 
 |Lasia属
 |ラジア
@@ -558,8 +572,8 @@ Aroideae亜科を除いた原始的なサトイモ科植物では、湿地以外
 |
 |生息地が離れているがDracontium属に近縁で姉妹属だと考えられている。
 葉と芋がコンニャクに似ることから勘違いされやすい。
-インドシナに生息して通常は落ち葉で覆われている砂利質の砂壌土や岩の間に生育する。
-//TODO インドシナ?
+通常は落ち葉で覆われている砂利質の砂壌土や岩の間に生育する。
+インドシナ（ラオス、タイ、カンボジア、ベトナム）に生息している。
 
 |Urospatha属
 |
@@ -573,8 +587,8 @@ Aroideae亜科を除いた原始的なサトイモ科植物では、湿地以外
 
 Stylochaeton属を除くとサトイモ科らしからぬ異様な見た目の種が多い亜科。
 
-Stylochaeton属はAroideae亜科だと思われていたが、最近の分子的な研究の結果Zamioculcadoideae亜科に所属しているという証拠が集まりつつある属。
-この亜科だと逆に普通ぽいサトイモ科の見た目をしているStylochaeton属が浮いているように見える。
+Stylochaeton属はAroideae亜科だと思われていたが、分子的な研究の結果Zamioculcadoideae亜科に所属しているという証拠が集まりつつある属。
+この亜科の中では一般的なサトイモ科植物の見た目をしているStylochaeton属が浮いているように見える。
 
 //この亜科では基本的に羽状複葉や3回羽状複葉と言った生え方をする種で構成されている。
 //殆どの種で葉から根や芋を回復できる(葉軸を含んでなければならない)。
@@ -585,45 +599,68 @@ Stylochaeton属はAroideae亜科だと思われていたが、最近の分子的
 
 |*Zamioculcas属*
 |ザミオクルカス
-|唯一の種であるZamioculcas zamiifoliaはツバキのような見た目の子葉を持ち観葉価値が高く園芸の世界ではそれなりに知られている。
+|唯一の種であるZamioculcas zamiifoliaは海外ではZZと呼ばれて乾燥に非常に強く枯れづらい事が知られている。
+ツバキのような見た目の子葉を持ち観葉価値が高い。
 
-サトイモ科植物とは思えない異様な姿なものの根出草の植物の葉が子葉に分かれた(羽状複葉)と考えると理解しやすい。
-直径で3cmくらいになる太い葉柄を持っている（なにかを蓄えている？）
-東アフリカ出身で熱帯雨林の日陰や、砂の多い川岸の石の多い場所で主に暮らす。サトイモ科では珍しく乾燥に強く加湿に弱い。
+サトイモ科植物とは思えない異様な姿なものの根出草の植物で、葉が子葉に分かれた(羽状複葉)でいると考えると理解しやすい。
+直径で3cmくらいになる太い葉柄を持っている。
+東アフリカ出身で熱帯雨林の日陰や、砂の多い川岸の石の多い場所で主に暮らす。
+
+サトイモ科そしてオモダカ目で唯一CAM型光合成を行うことができる植物。
+CAM型光合成とはサボテンなどの乾燥したり、昼夜の温度差が激しい地域に特化した植物の特徴で、昼は気孔を閉じることで水分の蒸発を防ぎ、夜にCO2取り込むことで
+水の損失を抑えることができる。
+ザミオクルカスは水不足が何日も続くとCAM型光合成に移行して乾燥に強くなることができる。
 
 葉を水刺しすることで増やすことができる。
 ただ、こちらはGonatopus属のように葉がパラパラおちたりすることはない。
 
+[.inline-quote]
+.参考にしたもの
+****
+ザミオクルカスはサトイモ科唯一のCAM型植物
+https://pubmed.ncbi.nlm.nih.gov/21636363/
+****
+
 |Gonatopus属
 |ゴナトプス
 |5種ほど知られていてほとんどの種が1枚の葉を複葉に分裂させている。多くの種は3回羽状複葉という分裂の仕方をする。
-株の雰囲気がサトイモ科離れしていて低木植物のような感じに見える。
+株の雰囲気がサトイモ科離れしていて低木植物のような雰囲気がある。
 
 東アフリカ出身で熱帯雨林に住む。芋を作り原産地では乾季に休眠を行う。
 
-葉から根を回復する能力がとても高く、水刺しなどをすることで容易に増やすことができる。
-事あるごとに小葉がパラパラ落ちるので葉をむかごのようにばらまくことで増える植物なんじゃないかと思う。
+葉から根をはやして回復する能力がとても高く、葉を水刺しなどをすることで容易に増やすことができる。
+事あるごとに小葉がパラパラ落ちるので上記の性質から葉をむかごのようにばらまくことで増える植物なんじゃないかと思う。
 
 == Gonatopus boivinii
 boiviniiはGonatopus属の中では割と知られた種。
 
 葉柄にコブができる特徴がありこのコブがキリンの足に似ているとよく言われている。
 Geonatopusのコブはサトイモ科植物で一般的なGeniculumという器官が葉柄側に移動したものだと言われている（目立たないもののザミオクルカス属にもコブが存在する）。
-//QUOTE [https://cate-araceae.myspecies.info/taxonomy/term/8062]
-//QUOTE [https://www.nibb.ac.jp/evodevo/tree/11_02_01_07_Zamioculcadoideae.html]
+
+[.inline-quote]
+.参考にしたもの
+****
+全般的な解説が載っていた. 花の写真など
+https://cate-araceae.myspecies.info/taxonomy/term/8062
+
+Zamioculcadoideae亜科の系統樹上の場所についての解説
+https://www.nibb.ac.jp/evodevo/tree/11_02_01_07_Zamioculcadoideae.html
+****
 
 |Stylochaeton属
 |
-|Zamioculcadoideae亜科の中では珍しく複葉を展開する種が少ない（存在しない？）。
+|Zamioculcadoideae亜科の中では珍しく複葉を展開する種が少ない属
+（かる見る感じ存在しない用に見えるが情報が少なすぎて不明）。
 20種ほど知られていて常緑種と季節的に休眠する種がいる。
 
 葉は複葉に分裂せずに矢じり状の単葉。
 地下に根茎をつくり、時折ランナーを伸ばす。
+（ザミオクルカスとゴナトプスは伸ばさないと思う）
 
 アフリカ大陸に生息。常緑種は熱帯湿潤林、季節的に休眠する種は熱帯サバンナおよび落葉樹林に生息する。
 
 見た目の問題で長らく分類が混乱していたが、Zamioculcadoideae亜科に近縁であると考えられ始めている。
-詳しいことはまだ不明だが、見た目が一般的なサトイモ科植物に似るのでこの亜科の中では原始的なグループだったりするのだろうか。
+詳しいことはまだ不明だが、見た目が一般的なサトイモ科植物に似るのでこの亜科の中では原始的なグループじゃないかと思う。
 
 |===
 
@@ -631,13 +668,13 @@ Geonatopusのコブはサトイモ科植物で一般的なGeniculumという器�
 == Aroideae亜科(サトイモ亜科)
 
 サトイモ科の中でも進化が進んだグループで花毎に雄雌が異なるを特徴がある（厳密なサトイモ科の花とは肉穂花序についたつぶつぶのものを指している）。
-雌雄を別にしたことで、雌雄で花が成熟するタイミングをずしたり、花粉を運ぶ虫を花の中に閉じ込められるようになった種がいる。
+雌雄を別にしたことで、雌雄で花が成熟するタイミングをずらしたり、花粉を運ぶ虫を花の中に閉じ込められるようになった種が見られる。
 
 Calleae連は両性の花を持つため長らく亜科外のグループだと考えられていたが、分子的な研究の結果Aroideae亜科に入れられるようになっている。
 
-他に、芋を持つ能力を持つ種が多く、ツタ植物（半着生植物）が少ない。
-この亜科の中で半着生植物はフィロデンドロン属、Cercestis属、シンゴニウム属だけ。
-//TODO: 一属見落としているような気がする
+この亜科は芋を持つ能力を持つ種が多くツタ植物（半着生植物）が少ない。
+サトイモ科は半着生植物の種が多いことがよく知られいているがサトイモ亜科での半着生植物はフィロデンドロン属、Cercestis属、シンゴニウム属だけで数が少ない。
+//TODO: 半着植物の下りは一属見落としているような気がする
 
 サトイモ亜科は種類が多いので連毎に紹介する。
 
@@ -653,24 +690,29 @@ Calleae連は両性の花を持つため長らく亜科外のグループだと�
 |*Aglaonema属*
 |アグラオネマ
 リョクチク
-|25種ほど知られている。古い時代から育てられてきた人気の高い観葉植物。
+|25種ほど知られている。古い時代から栽培されてきた人気の高い観葉植物。
 
 長細いササ状の葉を作る植物で、幼い頃は根出草のようだが、それなりに成長すると幹立ちし始める。
-黄色、ピンク、赤などの色の実をつけるがこれは鳥に食べられて分散するため目立つようになったのだと言われている。
+黄色、ピンク、赤などの色の実をつけるがこれは鳥に食べられて分散するため目立つようにしていると言われている。
 
 主に東南アジアに生息して熱帯雨林の湿った林床などに生息する。
 
-主に陸生だが水中でも生活できることができることが知られている。
+主に陸生だが一部の種は水中でも生活できることができることが知られていて、水草として育てることができる。
 
-//TODO 未完成
+[.inline-quote]
+.参考にしたもの
+****
+中国では古来Aglaonema modestumを育ててたらしい
+https://travaldo.blogspot.com/2019/01/aglaonema-care-and-culture.html
 
-// 中国では古来aglaonema modestumを育ててたらしい
-//https://travaldo.blogspot.com/2019/01/aglaonema-care-and-culture.html
-//QUOTE 鳥 [https://www.researchgate.net/publication/263847611_New_Hawaiian_plant_records_for_2005-2006]
+鳥
+https://www.researchgate.net/publication/263847611_New_Hawaiian_plant_records_for_2005-2006
+****
 
 |Aglaodorum属
 |
-|アグラオネマ属によく似ているが様々な異なる特徴を持つ属。唯一の種はAglaodorum griffithii。
+|アグラオネマ属によく似ているが様々な異なる特徴を持つ属。
+唯一の種はAglaodorum griffithii。
 
 形態的な特徴では、アグラオネマ属が赤やピンクの鳥で分散されることを想定した実を作るのに対して、Aglaodorum属は緑色でスポンジで水に浮遊して分散することに特化した果実を作る。
 葉柄、葉柄、根茎もスポンジ状でだったり水中生活に特化している。他に花柄が長く、雌しべに１つのうずまき(Whorl)を持つ（Whorlが花びらのことなのか、仏炎苞に雌しべに一周していることなのか不明）。
@@ -678,14 +720,27 @@ Calleae連は両性の花を持つため長らく亜科外のグループだと�
 
 植生の面ではアグラオネマ属が熱帯林床の陸生植物なのに対して、Aglaodorum属は開けた水辺を好み干潟などに生息する（塩に耐性がある?）。
 
-色々独特な特徴を持つが、分子的な研究の結果分類的な位置づけの問題でAglaonema属に吸収することが提案されている。
+色々独特な特徴を持つが、分子的な研究でAglaonema属に吸収することが提案されている。
 
-//QUOTE: https://unibook.upjs.sk/img/cms/doi/2020/tjb/07-van-etal.pdf
+[.inline-quote]
+.参考にしたもの
+****
+https://unibook.upjs.sk/img/cms/doi/2020/tjb/07-van-etal.pdf
+****
 
 |===
 
 [#Ambrosineae]
 === Ambrosineae連 - Aroideae亜科
+
+Arisarum属（Arisaema属ではない）に近縁で、約4610万年前にArisarum属から進化して分離した。
+
+[.inline-quote]
+.参考にしたもの
+****
+約4,610万年前にアリサルムから分離
+https://en.wikipedia.org/wiki/Arisarum
+****
 
 [%autowidth, cols="1,2,3a"]
 |===
@@ -693,10 +748,25 @@ Calleae連は両性の花を持つため長らく亜科外のグループだと�
 
 |Ambrosina属
 |
-|Ambrosina bassiiが唯一の種。ロゼット状の根出草。
-温暖な森林の地面や、開けた岩場に住む。
+|Ambrosina bassiiが唯一の種だと知られている。以前はクリプトコリネ属のいくつかの植物が誤って分類されていた。
+イタリア、チュニジア、アルジェリアなど地中海沿岸部に点在して生息し、温暖な森林の地面や、開けた岩場に住む。
 
-花が特殊で、横向きに咲き横向きの花の肉穂花序の上下で雄しべと雌しべが分かれる不思議な構造になっている。
+植物としては珍しい形態を持っている。
+8センチくらいの小さめの植物で、地中海に生息するサトイモ科植物の中では最小。
+卵のような小さな花を咲かせるが、この花は横向きに咲き肉穂花序で上下２つの部屋に分かれている。上下で雄しべと雌しべが分かれて咲く不思議な構造になっている。
+種子が作られる確率が低くほとんど種子が作られることがない。
+
+//TODO:種子はエライオソームを持つらしいがこれがサトイモ科で珍しいのか普通なのか要調査
+
+[.inline-quote]
+.参考にしたもの
+****
+英Wikipediaが大変参考になった。
+https://en.wikipedia.org/wiki/Ambrosina
+
+約4,610万年前にアリサルムから分離
+https://en.wikipedia.org/wiki/Arisarum
+****
 
 |===
 
@@ -709,22 +779,27 @@ Calleae連は両性の花を持つため長らく亜科外のグループだと�
 
 |*Anubias属*
 |アヌビアス
-|育てやすくインパクトのある見た目の水草としてアクアリウムでは非常に有名。
+|水草として育てる場合にCO2の添加が不要で、食害に強く育てやすいためアクアリウムでは非常に有名な植物。
+8種ほどが知られていて、アフリカ大陸の熱帯域に生息する。
 
-アフリカ大陸の熱帯域に生息し川の岸辺や水中で暮らす植物。地上で暮らすこともできジャングルの林床などでも見られる。
-生態としては根茎を持ち土の上を匍匐したり、岩に活着したりする。
+主に川の岸辺や半水中で暮らすが、地上で暮らすこともできジャングルの林床などでも見られる。
+根茎を持ち土の上を匍匐したり、岩に活着したりする。
 
-// 低湿度には強いが土の水切れには非常に弱いので水上で育てることができる。
-水上で育てる場合は、肥料をよく消費するので睡蓮用の肥料などを定期的に与えたほうが良い。肥料が切れると全然成長しなくなる。
+葉に耳のある種ほど常湿の環境に強いような気がする。
+水上で育てる場合は水切れと、肥料に注意したほうが良い。
+肥料が切れると全然成長しなくなる。
 
 |===
 
 [#Areae]
 === Areae連 - Aroideae亜科
 
-サトイモ科全体の基準になる模式属であるArumが所属する連。Arisaemateae連（テンナンショウが所属する）に近縁。
-Typhonium属などの最初期の属はアジア周辺に生息しているが、進化が進むにつれてヨーロッパなど乾燥した地中海沿岸地域に生息を広げていった。
-花が臭い種類が多い。
+サトイモ科全体の基準になる模式属であるArumが所属する連。
+Arisaemateae連（テンナンショウが所属する）に近縁。
+
+生息地を見る感じTyphonium属などの進化の初期の属はアジア周辺に生息しているが、進化が進むにつれてヨーロッパなど乾燥した地中海沿岸地域に生息を広げていっているようにに見える。
+
+花が臭い事で知られた種が割りと多い。
 
 [%autowidth, cols="1,2,3a"]
 |===
@@ -732,19 +807,26 @@ Typhonium属などの最初期の属はアジア周辺に生息しているが�
 
 |*Arum属*
 |アルム
-|サトイモ科全体の基準になる模式属。そのため、サトイモ科をarum familyと呼んだりする。
-26種しられている。
+|アルム属はサトイモ科を分類する際の基準になる模式属。そのため、サトイモ科植物をArum familyと呼んだりすることもある。
+26種知られている。
 
-芋を作り葉は単葉の場合が多い。
 ヨーロッパ、北アフリカ、西アジア原産で地中海を囲うように生息している。比較的乾燥した地域の森林の地面で暮らしている。
+地中に球茎を作る。季節的に休眠する。
 
-季節的に休眠する。春に葉を出し始めたあとに花を咲かせ夏になると休眠を始める（Arum pictumは秋咲きをする）。
-//QUOTE 秋咲き [日本産テンナンショウ図鑑 p328]
+現地の情報か不明だが日本で育てる際には春に葉を出し始めたあとに花を咲かせ夏になると休眠を始める種が多い（Arum pictumは秋咲きをする）。
+
+[.inline-quote]
+.参考にしたもの
+****
+Arum pictumが秋咲きの件
+日本産テンナンショウ図鑑 p328
+****
 
 |Biarum属
 |ビアルム
 |過酷な環境で暮らす植物。22種がしられている。
-Biarum属の一部の種では葉の構成が特殊で、葉柄と葉の区別が曖昧になっている。このような葉は最初期のサトイモ科植物に多い。
+Biarum属の一部の種では葉の構成が特殊で、葉柄と葉の区別が曖昧になっている。
+（この特徴はほかだと原始的なミズバショウ亜科くらいしか持ってないんじゃないかと思う）
 
 中東、ヨーロッパ、北アフリカなどに地中海を囲うように分布し、石灰岩の割れ目など過酷な環境に生息する。
 夏に休眠して冬ごろから成長を始める。
@@ -752,7 +834,12 @@ Biarum属の一部の種では葉の構成が特殊で、葉柄と葉の区別�
 果実は白っぽくて目立たなく、背が低い位置に作られる事から周りの岩にカモフラージュしていると言われている。
 この状態だと鳥が果実を発見できず種が分散しづらいはずだが、Biarum属の生息地は過酷な環境が多いため分散しても発芽できない可能性が高いためこのように進化したと考えられている。
 
-//QUOTE 休眠 [日本産テンナンショウ図鑑 p325]
+[.inline-quote]
+.参考にしたもの
+****
+休眠
+日本産テンナンショウ図鑑 p325
+****
 
 |Dracunculus属
 |ドラクンクルス
@@ -785,9 +872,16 @@ dead horse arum
 
 ヨーロッパ地中海西部の温暖な島々に生息する。海のそばの石灰岩や花崗岩の岩の隙間に生息する。
 芋を作り季節的に休眠する。春に葉を出し始めたあとに花を咲かせる。夏になると休眠を始める（Arumに似た生活をするように見える）。
-//QUOTE [https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:2803-1/general-information]
-//QUOTE [https://yamashina-botanical.com/botanical/%E3%83%98%E3%83%AA%E3%82%B3%E3%83%87%E3%82%A3%E3%82%B1%E3%83%AD%E3%82%B9%E3%83%BB%E3%83%A0%E3%82%B9%E3%82%AD%E3%83%9C%E3%83%AB%E3%82%B9/]
-//QUOTE [https://tentativeplantscientist.wordpress.com/2016/01/12/plant-families-araceae-aka-aroids-or-arums/]
+
+[.inline-quote]
+.参考にしたもの
+****
+https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:2803-1/general-information
+
+https://yamashina-botanical.com/botanical/%E3%83%98%E3%83%AA%E3%82%B3%E3%83%87%E3%82%A3%E3%82%B1%E3%83%AD%E3%82%B9%E3%83%BB%E3%83%A0%E3%82%B9%E3%82%AD%E3%83%9C%E3%83%AB%E3%82%B9/
+
+https://tentativeplantscientist.wordpress.com/2016/01/12/plant-families-araceae-aka-aroids-or-arums/
+****
 
 |Sauromatum属
 |ブードゥーユリ
@@ -801,21 +895,33 @@ Area属では肉穂花序を覆うように仏炎苞が作られるがSauromatum
 高地の低木に遮光した所で暮らすことが多いが、乾燥していて日光が強い岩の間などでも暮らしている記録がある。
 
 Sauromatumの写真で調べると芋を掘り出された状態で花が咲いたものが飾られている写真が多いが、ヨーロッパではこのような形で売られているらしい。
-//QUOTE [https://twitter.com/MikesRarePlants/status/989589488023359489/photo/2]
-//QUOTE [https://www.jstage.jst.go.jp/article/chiribunrui/69/1/69_0691-10/_pdf/-char/ja]
+
+[.inline-quote]
+.参考にしたもの
+****
+https://twitter.com/MikesRarePlants/status/989589488023359489/photo/2
+
+https://www.jstage.jst.go.jp/article/chiribunrui/69/1/69_0691-10/_pdf/-char/ja
+****
 
 == Sauromatum venosum
 
 肉穂花序と仏炎苞は細長くインパクトのある形をしていて、仏炎苞が緑に赤のぶち模様が入るド派手な柄なためSauromatum属のなかでは園芸されることが多い。
 花が臭いためか道路など人が往来する所の近くで栽培することは推奨しないとミズーリ植物園の図鑑に書いてある。
 
-//QUOTE 生息地 [Aroids p145]
-//QUOTE 園芸の注意点 [https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=255908&isprofile=0&]
+[.inline-quote]
+.参考にしたもの
+****
+生息地
+Aroids : Plants of the Arum Family p145
+
+https://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=255908&isprofile=0&
+****
 
 |Typhonium属
 |リュウキュウハンゲ
-|Areaeの中でも最初期に分化した属のため、Arisaemateae連のPinellia属（ハンゲ属）に似ている特徴がある。
-83種知られていてAreae連の中で最大の属だが、分類群が単系統ではない可能性が示唆されていていくつかの属に解体される可能性が高い（Pedatyphoninium属, Diversiarum属, Hirsutiarum属）
+|Areaeの中でも最初期に分化した属のため、Arisaemateae連のPinellia属（ハンゲ属）に近い特徴もある。
+83種知られていてAreae連の中で最大の属だが、いくつかの属に解体される可能性が高い（Pedatyphoninium属, Diversiarum属, Hirsutiarum属）。
 
 地中に芋を作る。
 インド、から東南アジア、中国、モンゴル、オーストラリアにかけて生息する。
@@ -825,15 +931,27 @@ Sauromatumの写真で調べると芋を掘り出された状態で花が咲い�
 中国から東南アジアにかけて生息し、日本に生息する唯一のTyphonium属の植物でリュウキュウハンゲと呼ばれる。
 鹿児島と沖縄に生息している。鹿児島では珍しい植物だが、沖縄ではそこら中に生えているので雑草扱いらしい。
 リュウキュウハンゲはTyphonium divaricatumと言われることもあるがこれは誤り。
-//QUOTE divaricatumは誤り [http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=242414558]
+
+[.inline-quote]
+.参考にしたもの
+****
+divaricatumは誤り
+http://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=242414558
+****
 
 |Theriophonum属
 |
 |5種知られている。
 Typhoniumに見た目がよく似ているが、Theriophonum属のほうが小さい事が多い。
-芋を作る。
-
+小さい球茎を作る。
 インド南部からスリランカまで生息する。
+
+[.inline-quote]
+.参考にしたもの
+****
+芋の写真
+https://globalresearchonline.net/journalcontents/v54-2/06.pdf
+****
 
 |Hirsutiarum属
 |ヒルスティアルム
@@ -847,10 +965,17 @@ Sauromatumに含められてしまうことが多いが、幼葉の生成過程�
 中国雲南省から東南アジアまで生息する。
 二次林（伐採後にできた森林）や茶畑などに生息する。
 
-//QUOTE [日本産テンナンショウ属図鑑 IV]
-//QUOTE [https://www.researchgate.net/publication/233611104_Molecular_Phylogeny_of_Typhonium_sensu_lato_and_Its_Allied_Genera_in_the_Tribe_Areae_of_the_Subfamily_Aroideae_Araceae_Based_on_Sequences_of_Six_Chloroplast_Regions]
-//QUOTE [https://www.jstage.jst.go.jp/article/jjapbot/95/5/95_95_5_11037/_article/-char/ja/]
-//QUOTE [http://www.jjbotany.com/pdf/JJB95-5_285-290_abstract.pdf]
+[.inline-quote]
+.参考にしたもの
+****
+日本産テンナンショウ属図鑑 IV
+
+https://www.researchgate.net/publication/233611104_Molecular_Phylogeny_of_Typhonium_sensu_lato_and_Its_Allied_Genera_in_the_Tribe_Areae_of_the_Subfamily_Aroideae_Araceae_Based_on_Sequences_of_Six_Chloroplast_Regions
+
+https://www.jstage.jst.go.jp/article/jjapbot/95/5/95_95_5_11037/_article/-char/ja/
+
+http://www.jjbotany.com/pdf/JJB95-5_285-290_abstract.pdf
+****
 
 |Diversiarum属
 |ディベルシアルム
@@ -860,8 +985,14 @@ Sauromatumに含められてしまうことが多いが、幼葉の生成過程�
 
 雲南省、四川省、ヒマラヤ地域に分布する。
 
-//QUOTE 諸々 [日本産テンナンショウ属図鑑 IV]
-//QUOTE [https://www.researchgate.net/publication/233611104_Molecular_Phylogeny_of_Typhonium_sensu_lato_and_Its_Allied_Genera_in_the_Tribe_Areae_of_the_Subfamily_Aroideae_Araceae_Based_on_Sequences_of_Six_Chloroplast_Regions]
+[.inline-quote]
+.参考にしたもの
+****
+諸々 
+日本産テンナンショウ属図鑑 IV
+
+https://www.researchgate.net/publication/233611104_Molecular_Phylogeny_of_Typhonium_sensu_lato_and_Its_Allied_Genera_in_the_Tribe_Areae_of_the_Subfamily_Aroideae_Araceae_Based_on_Sequences_of_Six_Chloroplast_Regions
+****
 
 |Pedatyphonium属
 |ペダティフォニウム
@@ -870,8 +1001,14 @@ Areae属のなかでも進化が進んだ属で2種知られている。
 
 ミャンマー北部から中国西南部、インドシナ半島からジャワ島まで生息する。
 
-//QUOTE 生息地諸々 [日本産テンナンショウ属図鑑 IV]
-//QUOTE [https://www.researchgate.net/publication/233611104_Molecular_Phylogeny_of_Typhonium_sensu_lato_and_Its_Allied_Genera_in_the_Tribe_Areae_of_the_Subfamily_Aroideae_Araceae_Based_on_Sequences_of_Six_Chloroplast_Regions]
+[.inline-quote]
+.参考にしたもの
+****
+生息地諸々
+日本産テンナンショウ属図鑑 IV
+
+https://www.researchgate.net/publication/233611104_Molecular_Phylogeny_of_Typhonium_sensu_lato_and_Its_Allied_Genera_in_the_Tribe_Areae_of_the_Subfamily_Aroideae_Araceae_Based_on_Sequences_of_Six_Chloroplast_Regions
+****
 
 |===
 
@@ -879,7 +1016,7 @@ Areae属のなかでも進化が進んだ属で2種知られている。
 === Arisaemateae連 - Aroideae亜科
 
 Area連に近縁。
-サトイモ科植物のなかでは日本原産の種が多い。
+熱帯原産の種類が多いサトイモ科植物のなかでは日本原産の種が多い。
 
 [%autowidth, cols="1,2,3a"]
 |===
@@ -902,14 +1039,16 @@ Cobra lily
 
 ほとんどのサトイモ科植物はシュウ酸カルシウム由来の致命的ではない毒を持っているがこの属は特に毒性が強調されることが多い。毒が強いのもあると思うが芋が大きくそこら中に生えていること、実が赤くなり非常に美味しそうに見えるのが原因だと思う。
 
-テンナンショウ属はいくつかの節が知られているが今回はいくつか紹介する。
+テンナンショウ属のいくつかの節を紹介する。
 
 == Pistillata節（マムシグサ節）
+
 テンナンショウ属のなかでも一番進化が進んでいる属。
 日本に主に生息している種が多い。
-Arisaema sikokianum（ユキモチソウ）、Arisaema ringens（ムサシアブミ）などが所属する
+Arisaema sikokianum（ユキモチソウ）、Arisaema ringens（ムサシアブミ）などが所属する。
 
 == Flagellarisaema節（ウラシマソウ節）
+
 品種改良が進んでいて園芸の世界で人気のあるウラシマソウが所属する節。
 他に雌雄同株のArisaema Heterophyllum（マイヅルテンナンショウ）などが所属する。
 
@@ -944,13 +1083,20 @@ Pinellia tripartita（オオハンゲ）やPinellia ternata（カラスビシャ
 むかごを作らずとにかく種をたくさん作ることで知られている。
 基本的にPinellia属は虫に頼った受粉を行うが、ショウヨウハンゲは属で唯一仏炎苞にくびれがなく内部で花粉が落ちることで自家受粉を行うことができる。
 属で唯一鳥足状の葉を持つ。
-//QUOTE [https://www.jstage.jst.go.jp/article/chiribunrui/69/1/69_0691-10/_pdf/-char/ja]
+
+[.inline-quote]
+.参考にしたもの
+****
+https://www.jstage.jst.go.jp/article/chiribunrui/69/1/69_0691-10/_pdf/-char/ja
+****
+
 
 |===
 
 [#Arisareae]
 === Arisareae連 - Aroideae亜科
 
+Arisaema属（テンナンショウ属）と名前が似ているが関係がない。
 Peltandreae連、Ambrosineae連と近縁。
 
 [%autowidth, cols="1,2,3a"]
@@ -959,15 +1105,23 @@ Peltandreae連、Ambrosineae連と近縁。
 
 |Arisarum属
 |アリサルム
-|3種知られている。
+|Arisaema属に名前が似ているが別属なところに注意。
+3種知られている。
 
-芋は球茎が多いが、根茎を作る種もいる（Arisarum proboscideum）。
-Arisarum proboscideumは花をきのこに擬態していると言われている。きのこに卵を生むタイプのブヨを引き付ける。
+芋は球茎が多いが、Arisarum proboscideumなど根茎を作る種もいる。
 
 温暖な地域のヤブや、石の多い地面、岩の間などに生息する。
 地中海を覆うように分布している。
 
-http://araceum.abrimaal.pro-e.pl/arisarum/vulgare.htm[自生地の写真（外部サイト）, window="_blank"]
+== Arisarum proboscideum
+
+ネズミのような尻尾のついた花を咲かせることからマウステール植物と言われたりもする。
+きのこに卵を生むタイプのブヨを引き付けて花粉を運ばせるために、花をきのこに擬態していると言われている。
+Arisarum属の中では珍しく球茎ではなく根茎を作る。
+
+イタリアやスペインに生息する。
+
+http://araceum.abrimaal.pro-e.pl/arisarum/vulgare.htm[自生地の写真（※外部サイト）, window="_blank"]
 //QUOTE 芋の写真 [https://portal.wiktrop.org/species/show/660]
 
 |===
@@ -1438,14 +1592,15 @@ Homalomeneae連に近縁で南アメリカに生息するAdelonema属から分�
 
 |*Philodendron属*
 |フィロデンドロン
-|フィロデンドロンは園芸の世界で名前がよく知られたサトイモ科植物の一つ。メキシコから中央、南アメリカなどが原産地で、主に熱帯雨林に生息する。
+|フィロデンドロンは園芸の世界でよく知られたサトイモ科植物の一つ。
+メキシコから中央、南アメリカなどが原産地で、主に熱帯雨林に生息する。
 
-セローム(Thaumatophyllum bipinnatifidum)などのフィロデンドロンの名前でよく知られる一部の種はThaumatophyllum属に移動されたので注意が必要。Philodendron属にはオキシカルジューム、インベ、ビロードカズラなどが知られている。
+セローム(Thaumatophyllum bipinnatifidum)などのフィロデンドロンの名前でよく知られる一部の種はThaumatophyllum属に移動されたので注意が必要。Philodendron属ではオキシカルジューム、インベ、ビロードカズラなどが知られている。
 
-フィロデンドロンは知られているものだけで500種以上いるサトイモ科で２番目に種数の多い属で、基本的には熱帯雨林で着生生活を送るが、半着生、根出葉だったり様々な生態を持った種がいる(半着生は原始的なサトイモ科に多いが逆にサトイモ亜科の中だと4つ程度の属しか知られていない特徴
-)。
+フィロデンドロンは知られているものだけで500種以上いるサトイモ科で2番目に種数の多い属。
+基本的には熱帯雨林で着生生活を送るが、半着生、根出葉だったり様々な生態を持った種がいる。
+(半着生はサトイモ亜科の中では4つ程度の属でしか知られていない特徴)
 //TODO 特殊なカタフィルについて説明したい
-
 //フィロデンドロンは大きく２つの亜属に分けられる。
 
 == Pteromischum亜属
@@ -1460,22 +1615,32 @@ Philodendron属の中の大多数が所属する亜属。
 
 具体的な種はオキシカルジューム、ビロードカズラ（どちらもPhilodendron hederaceum）、Philodendron imbeなど
 
-//QUOTE [http://www.aroid.org/genera/philodendron/Schizophyllum/schizo.php]
-//QUOTE [https://cate-araceae.myspecies.info/node/4066]
-
+[.inline-quote]
+.参考にしたもの
+****
+http://www.aroid.org/genera/philodendron/Schizophyllum/schizo.php
+https://cate-araceae.myspecies.info/node/4066
+****
 
 |*Thaumatophyllum属*
 |フィロデンドロン?
-|過去にはPhilodendron属のMeconostigma亜属だと考えられたものが独立して属になった。
-セロームやザナドゥなどフィロデンドロンを代表していたような種が所属していて、分類の変更も数十年内くらいの出来事なので未だにこの属の種は一般的にフィロデンドロンと呼ばれている。
+|Philodendron属のMeconostigma亜属だと考えられたものが独立して属になった。
+セロームやザナドゥなど園芸の世界でフィロデンドロンを代表していたような種が所属している。
 
-Pholodendron属と近縁で詳しく見分ける場合は雄しべの長さなどを確認するようだが、素人目には茎が木のようになる種が主に入っているように見える（Philodendron Eucardium節のようにシワが木ぽくなるやつは違う）。
+// 分類の変更も数十年内くらいの出来事なので未だにこの属の種は一般的にフィロデンドロンと呼ばれている。
+// フィロデンドロン属と見分ける必要がある場合は雄しべの長さなどを確認する必要がある。素人目には茎が木のようになる種が主に入っているように見える
 
-代表的な種は
+代表的な種を挙げると下記
+
 * セローム（Thaumatophyllum bipinnatifidum）
 * ザナドゥ（Thaumatophyllum xanadu）
 
-//QUOTE [https://cate-araceae.myspecies.info/node/4066]]
+[.inline-quote]
+.参考にしたもの
+****
+https://cate-araceae.myspecies.info/node/4066
+****
+
 
 |===
 
@@ -1488,17 +1653,25 @@ Pholodendron属と近縁で詳しく見分ける場合は雄しべの長さな�
 
 |Philonotion属
 |
-|近年再編が進んだ属。Schismatoglottis連に対する分子的な分析の結果で、近縁ではあるがSchismatoglottideae連ではないことが判明した種などが所属する。
+|近年再編が進んだ属。スキスマトグロッティス連に対する分子的な分析の結果として、スキスマトグロッティス連ではないことが判明した種などが所属する。
 
-Schismatoglottideae連やCryptocoryneae連に近縁だがそれらに比べるとPhilonotion属は水辺での生活に特化した進化をしていない特徴がある。
+スキスマトグロッティス連やクリプトコリネ連に近縁だがそれらに比べるとPhilonotion属は水辺での生活に特化した進化をしていない特徴がある。
 
 南アメリカ北東部に生息する。
 川沿いの泥でできた斜面や、白い砂のサバンナの森のなどに生息する。
 （白い砂のサバンナとは、アマゾン地域などに広がる熱帯雨林が乾燥してできたサバンナの特徴）
-//QUOTE [https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:2864-1/general-information]
-//QUOTE 写真 [http://www.lachaussetterouge.fr/philonotion-americanum.html]
-//QUOTE [https://www.researchgate.net/publication/233702009_Molecular_phylogeny_of_tribe_Schismatoglottideae_Araceae_based_on_two_plastid_markers_and_recognition_of_a_new_tribe_Philonotieae_from_the_neotropics]
-//QUOTE 白い砂について [https://link.springer.com/article/10.1007/s10021-021-00607-x]
+
+[.inline-quote]
+.参考にしたもの
+****
+https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:2864-1/general-information
+http://www.lachaussetterouge.fr/philonotion-americanum.html
+https://www.researchgate.net/publication/233702009_Molecular_phylogeny_of_tribe_Schismatoglottideae_Araceae_based_on_two_plastid_markers_and_recognition_of_a_new_tribe_Philonotieae_from_the_neotropics
+
+白い砂について
+https://link.springer.com/article/10.1007/s10021-021-00607-x
+****
+
 
 |===
 
@@ -1556,15 +1729,14 @@ Alocasia属との比較でEnglerarum属は、葉の裏側に主脈にワック�
 |===
 
 [#Schismatoglottideae]
-=== Schismatoglottideae連 - Aroideae亜科
+=== Schismatoglottideae連(スキスマトグロッティス連) - Aroideae亜科
 
-Schismatoglottisに近縁な種で構成されている連で、構成されるほとんどの属がSchismatoglottis属の進化の過程で分化して生まれたものだと予想されている。Schismatoglottis属は分化が激しい特徴を持つためためSchismatoglottideae連全体で非常に多種多様で大幅に異なった形態を持った種が存在する。
-連間の比較ではCryptocorynae連に近縁。
+スキスマトグロッティスに近縁な種で構成されている連で、構成されるほとんどの属がスキスマトグロッティス属の進化の過程で分化して生まれたものだと予想されている。
+非常に激しい分化が行われたため連全体で非常に多種多様で大幅に異なった形態を持った種が存在する。
 
-Schismatoglottideae連と生息地が被るホマロメナ属も非常に種分化しやすく様々な種類がいる。遠縁な属なもののSchismatoglottideae連に非常によく似る種がいるため見分けるの事が難しい。
-//QUOTE この下りは独自調査のため怪しい
+見た目が似ているホマロメナ属と多く誤って分類されることが多い。ホマロメナ属も種が多く花を除くと形態が似ていて見分けることが難しい上、被っている生息地が多い事が原因だと考えられる。
 
-Schismatoglottideae連では形態的な特徴から色々な属が定義されてきたが、分子的な分析の結果として現状の分類はかなり混乱している事が分かり始めている。そのためSchismatoglottideae連全体で大幅に整理が進んでいる。
+スキスマトグロッティス連では形態的な特徴から色々な属が定義されてきたが、分子的な分析の結果として現状の分類はかなり混乱している事が分かり始めている。そのためスキスマトグロッティス連全体で大幅に整理が進んでいる。
 
 [NOTE]
 下記の属は省略。
@@ -1614,8 +1786,10 @@ Apoballis属、Galantharum属、Gamogyne属、Gosong属、Hera属、Heteroaridar
 |園芸やテラリウムで人気のある属。
 170種知られている大きなグループ。
 
-開花後に仏炎苞の先端（Limb）が外れかかる特徴がある（ブセファンドラ属はLimbが取れる）。
-スキスマトグロッティス属は花が咲いた後に頂点に新しい枝を作るグループと、花が咲いた後枝の低い位置から側芽を出して成長し直すグループで二分することができる。
+開花後に仏炎苞の先端（Limb）が外れかかる特徴がある（比較としてブセファンドラ属はLimbが外れる）。
+スキスマトグロッティス属は花が咲いて成長点がなくなった後に、頂点に新しい枝を作るグループと、花が咲いた後枝の低い位置から側芽を出して成長し直すグループで大きく二分することができる。
+後者のほうが進化が進んだグループだと考えられている。
+
 
 熱帯雨林か元熱帯雨林の林床に住む陸生の植物で時折渓流などに生息する。季節性の高い地域では生息できない。
 主に東南アジアあたりの熱帯亜熱帯アジアに生息する。アメリカに生息する報告もあったがそれらの種はPhilonotion属に移動された。
@@ -1774,6 +1948,7 @@ http://araceum.abrimaal.pro-e.pl/synandrospadix/vermitoxicus2.htm[植物の写�
 //QUOTE 地衣類の話 [英語のwikipedia?]
 
 == Amorphophallus konjac
+
 いわゆる日本食でよく使用されるコンニャクの原料になる種。
 //コンニャク属のなかでもコンニャクマンナンという物質が豊富
 原産地はインドからインドシナ半島で日本には中国経由で調理方法とともに渡ってきた。
@@ -1796,11 +1971,17 @@ http://araceum.abrimaal.pro-e.pl/synandrospadix/vermitoxicus2.htm[植物の写�
 アフリカ南部原産にも関わらず耐寒性が高く日本では寒冷地で主に栽培されている。
 
 種により土壌の好みが違い湿地帯、開けた草地などに生息する。
-白い大きな花で有名なZantedeschia aethiopicaは湿地帯を好む。
+例えば、白い大きな花で有名なZantedeschia aethiopicaは湿地帯を好む。
+土中に平たい大きな芋を作る。
 
-土中に大きな芋を作るが腐りやすい。
-//MEMO [http://www.moois.jp/grow_zantedeschia/]
-//QUOTE 生息地 [https://en.wikipedia.org/wiki/Zantedeschia_pentlandii]
+育てる上での注意点は芋が腐りやすい事。
+
+[.inline-quote]
+.参考にしたもの
+****
+http://www.moois.jp/grow_zantedeschia/
+https://en.wikipedia.org/wiki/Zantedeschia_pentlandii
+****
 
 |===
 
@@ -1821,13 +2002,13 @@ http://araceum.abrimaal.pro-e.pl/synandrospadix/vermitoxicus2.htm[植物の写�
 
 |Ulearum属
 |ウレアルム
-|地下で茎を横に伸ばすサトイモ科では珍しい育ち方をする属。
+|地下で根茎を伸ばそうとするサトイモ科では少し珍しい育ち方をする属。
 // カンアオイのような葉や見た目。
 南アメリカ大陸の林床などに生息する。
 
-体の形態的な特徴からCallopsisと近縁である可能性が示唆されている。ただCallopsisはアフリカ大陸に生息するためUlearumとの地理的な隔離が激しい。Ulearumも分布が散発的な種がいるため、これらは遺存種的な状況なのかもしれない。
+体の形態的な特徴からCallopsisと近縁である可能性が示唆されている。ただCallopsisはアフリカ大陸に生息するためUlearumとの地理的な隔離が激しい。Ulearumも分布が散発的な種がいるため、これらは遺存種的な状況なのかもしれない（この情報は古くて今では誤りかもしれない）。
 
-Nephthytis属のように茎を地上に出して育てているとカタフィルが地下の方向に生え始めて成長点が地下に潜り始める。
+成長点が地上に出ているとカタフィルが地下の方向に生え始めて成長点が地下に潜り始める。
 
 |Zomicarpa属
 |

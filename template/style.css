@@ -80,9 +80,8 @@ body {
   margin: 0px;
   text-align: left;
 }
-.header h1 .first {
-  font-size: 15px;
-  line-height: 1.0em;
+.header h1 img {
+  height: 50px;
 }
 .header a {
   text-decoration: none;

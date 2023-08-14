@@ -80,6 +80,7 @@ const main = async () => {
   try {
     await fs.copyFile(path.join(templateDir, 'favicon.ico'), path.join(distDir, 'favicon.ico'));
     await fs.copyFile(path.join(templateDir, 'style.css'), path.join(distDir, 'style.css'));
+    await fs.copyFile(path.join(templateDir, 'logo.png'), path.join(distDir, 'logo.png'));
     console.log('Done.');
   }catch (err) {
     console.log(err);

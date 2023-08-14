@@ -18,3 +18,14 @@ npm run build
 ### :sitetree-ignore:
 
 自動生成されるサイトツリーから除外する
+
+## 独自のasciidoc要素
+
+### インライン引用
+
+```
+[.inline-quote]
+.参考にしたもの
+****
+****
+```
