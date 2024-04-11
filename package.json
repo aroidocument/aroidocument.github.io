@@ -5,8 +5,8 @@
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "ts-node index.ts",
-    "watch": "ts-node index.ts && onchange './article/**/*.adoc' './template/*.html' -- npm run build"
+    "build": "tsx index.ts",
+    "watch": "tsx index.ts && onchange './article/**/*.adoc' './template/*.html' -- npm run build"
   },
   "author": "",
   "license": "ISC",
@@ -28,6 +28,6 @@
     "textlint-rule-preset-japanese": "^7.0.0"
   },
   "dependencies": {
-    "ts-node": "^10.9.1"
+    "tsx": "^4.7.1"
   }
 }
