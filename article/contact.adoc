@@ -3,13 +3,9 @@
 
 = 問い合わせ
 
-管理者もそこまでサトイモ科に詳しいわけではないので情報等をわかりやすく教えていただけたら幸いです。
-
-メールでの場合こちらまで(確認頻度は遅めです)。
 +++
 <span>aroidconfluence&#64;outlook.jp</span>
 +++
 
-サイトへ改善案についてこちらにのissueページで投稿してもらうことができます。
-(githubのアカウントが必要です)
+こちらのissueページに投稿してもらうことができます。
 https://github.com/aroidocument/aroidocument.github.io/issues

@@ -1,4 +1,5 @@
 :hardbreaks:
+:sitetree-ignore:
 
 = サトイモ科で種数が多い属
 
