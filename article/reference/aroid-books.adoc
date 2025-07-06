@@ -7,8 +7,6 @@
 
 == The Genera of Araceae （洋書）
 
-[red]#*おすすめ*#
-
 複数のサトイモ科植物の研究者がサトイモ科全体についてまとめたサトイモ研究の集大成と言える本。
 
 ほとんどのサトイモ科植物に網羅的に解説することも目的としていて非常に幅広い。
@@ -20,8 +18,6 @@ PDFが論文検索サイトからダウンロードできる。
 https://www.researchgate.net/publication/280387316_The_Genera_of_Araceae
 
 == Aroid: Plants of the Arum Family （洋書）
-
-[red]#*おすすめ*#
 
 サトイモ科植物全体について網羅的に説明している本。生息環境ごとに紹介している。
 
@@ -37,8 +33,6 @@ https://www.researchgate.net/publication/280387316_The_Genera_of_Araceae
 入手が難しい場合はInternet Archiveのデジタル図書館で借りる事ができる？（使用したことがない）
 
 == サトイモ: 栽培から貯蔵、種芋生産まで 新特産シリーズ
-
-[red]#*おすすめ*#
 
 主にサトイモColocasia esculentaの栽培についての本。
 
@@ -65,8 +59,6 @@ https://www.amazon.co.jp/dp/4540041770
 
 == タロイモは語る 今知られていること、伝えること
 
-[red]#*ややおすすめ*#
-
 主にColocasia esculentaについての本だが、様々なサトイモ科植物についても触れている。
 
 タイトルが怪しげなのと、本の説明文から内容が読み取れなかったので大分警戒して買ったものの良い本だった。
@@ -85,8 +77,6 @@ Colocasia esculenta以外にもCryrtospermaやMonsteraやシロカイウ（Colla
 ただ、内容が割と難しくあまり理解できなかった。
 
 == 日本産テンナンショウ属図鑑
-
-[red]#*ややおすすめ*#
 
 日本のテンナンショウについて書かれた図鑑。テンナンショウの近縁属についても触れている。
 
@@ -114,6 +104,4 @@ https://powo.science.kew.org/
 同じく英国にはロンドン自然史博物館が作っているCATE Araceaeプロジェクトというものが存在する。
 https://cate-araceae.myspecies.info/taxonomy/term/174
 
-== WILD ARUM  （洋書）
 
-積み本中。

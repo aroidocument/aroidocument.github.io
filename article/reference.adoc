@@ -1,4 +1,5 @@
 :hardbreaks:
+:sitetree-ignore:
 :sitetree-pariority-key: 6
 
 = サトイモ科の情報元
