@@ -1,24 +1,11 @@
 import _asciidoctor, { Asciidoctor } from 'asciidoctor';
 import path from "path";
 import glob from "glob";
+import { globFiles } from './glob';
 
 const asciidoctor = _asciidoctor();
 
 const defaultPriority = 50;
-
-/**
- * ディレクトリをglobする
- */
-export async function globFiles(pattern: string): Promise<string[]> {
-  return new Promise((resolve, reject) => {
-    glob(pattern, function (err, files) {
-      if(err) {
-        reject(err);
-      }
-      resolve(files);
-    });
-  });
-}
 
 /**
  * サイドメニュー向けのタイトルを確定させる

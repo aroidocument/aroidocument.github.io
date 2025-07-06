@@ -12,4 +12,4 @@ export function globFiles(pattern: string): Promise<string[]> {
       resolve(files);
     });
   });
-  }
+}
