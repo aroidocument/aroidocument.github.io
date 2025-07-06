@@ -1,5 +1,5 @@
 :root {
-    --main-bg-color: rgb(255 255 255);
+    --main-bg-color: rgb(205 214 221);
     --main-component-color: rgb(243 241 236);
     --main-text-color: rgb(36, 70, 77);
     --main-link-color: rgb(77, 102, 107);
@@ -27,7 +27,7 @@ body {
 }
 .wrapper {
   display: grid;
-  grid-template-rows: 80px fit-content(100px) auto;
+  grid-template-rows: 65px fit-content(100px) auto;
   grid-template-columns: 320px auto;
   height: 100%;
   grid-template-areas:
@@ -74,15 +74,14 @@ body {
 }
 .header h1 {
   font-weight: bold;
-  font-size: 10px;
+  font-size: 20px;
   color: var(--main-red-color);
   padding: 6px;
   margin: 0px;
   text-align: left;
 }
-.header h1 .first {
-  font-size: 15px;
-  line-height: 1.0em;
+.header h1 img {
+  height: 50px;
 }
 .header a {
   text-decoration: none;

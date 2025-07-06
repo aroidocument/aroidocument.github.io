@@ -24,3 +24,19 @@ mogrify -path article/image -resize '1500x1500>' -quality 50% -format jpg -strip
 ### :sitetree-ignore:
 
 自動生成されるサイトツリーから除外する
+
+### :menu-title:
+
+サイトメニュー向けに短縮版の名前をつける。
+存在しない場合はページのタイトルをメニューに使用する
+
+## 独自のasciidoc要素
+
+### インライン引用
+
+```
+[.inline-quote]
+.参考にしたもの
+****
+****
+```
