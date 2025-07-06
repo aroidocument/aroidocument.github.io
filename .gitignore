@@ -2,3 +2,4 @@ node_modules/
 dist/
 .unotes/
 bin/
+.DS_Store

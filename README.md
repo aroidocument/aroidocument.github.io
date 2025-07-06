@@ -8,6 +8,12 @@
 npm run build
 ```
 
+## 画像の圧縮
+
+```
+mogrify -path article/image -resize '1500x1500>' -quality 50% -format jpg -strip "article/image/*.jpg"
+```
+
 ## 独自のasciidoc属性
 
 ### :sitetree-pariority-key:

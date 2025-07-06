@@ -1,22 +1,17 @@
+/*
+記事をビルドするスクリプト
+*/
 import nunjucks from "nunjucks";
 import _asciidoctor from 'asciidoctor';
 import path from "path";
 import * as fs from 'fs/promises';
-import glob from "glob";
 const mkdirp = require("mkdirp");
 import { JSDOM } from "jsdom";
+import { Page, PageTree } from "./src/model";
+import { TreeGenerator } from "./src/create-page-tree";
+import { globFiles } from "./src/glob";
 
 const asciidoctor = _asciidoctor();
-
-type Page = {
-  priority: number,
-  child: PageTree,
-  title?: string,
-  path?: string,
-  name: string
-}
-
-type PageTree = Map<string, Page>
 
 // 各種設定値
 const distDir = "dist";
@@ -30,9 +25,10 @@ const main = async () => {
   await mkdirp(distDir);
 
   // サイドメニューの構築
+  const treeGenerator = new TreeGenerator(asciidoctor, defaultPriority, articleDir);
 
   // 記事を一式取得
-  const allArticleTree = await createTree(articleDir, "/");
+  const allArticleTree = await treeGenerator.createTree();
   console.log("articleTree", JSON.stringify(allArticleTree));
   // 記事のDOMを構築
   const sidemenuDom = constructDom(allArticleTree);
@@ -65,7 +61,7 @@ const main = async () => {
     }
 
     // ページ全体にマクロを適応する
-    let resultHtml = nunjucks.render(`${templateDir}/index.html`,  pageAttribute);
+    let resultHtml = nunjucks.render(`${templateDir}/article.html`,  pageAttribute);
 
     // ファイルの出力先ディレクトリを確定する。入れ子構造になっている場合には入れ子先のディレクトリを指す
     const outputDir = path.join(distDir, path.relative(articleDir, path.dirname(asciidocPath)));
@@ -107,79 +103,6 @@ async function outputHtml(outputPath: string, htmlString: string) {
   } catch(err) {
     console.log('error:', outputPath); throw err;
   }
-}
-
-/**
- * ディレクトリをglobする
- */
- function globFiles(pattern: string): Promise<string[]> {
-  return new Promise((resolve, reject) => {
-    glob(pattern, function (err, files) {
-      if(err) {
-        reject(err);
-      }
-      resolve(files);
-    });
-  });
-}
-
-/**
- * asciidocのパス列からツリーを構築
- */
-async function createTree(docBase: string, docRoot: string): Promise<PageTree> {
-  const asciidocPaths = await globFiles(path.join(docBase, docRoot, "**/*.adoc")) as string[];
-
-  /**
-   * pathsからツリーを構築
-   */
-  function inner(base: PageTree, pathTokens: string[], fullpath: string) {
-    if(pathTokens.length <= 1) {
-      const doc = asciidoctor.loadFile(path.join(docBase, fullpath));
-      const name = path.parse(pathTokens[0]).name
-
-      const p = path.join(path.dirname(fullpath), path.parse(fullpath).name + '.html' )
-
-      if(doc.getAttribute("sitetree-ignore") != undefined) {
-        return
-      }
-
-      let priority = defaultPriority;
-      if(doc.getAttribute("sitetree-pariority-key") != undefined) {
-        priority = parseInt(doc.getAttribute("sitetree-pariority-key"))
-      }
-
-      base.set(name,
-        {
-          "title": doc.getDocumentTitle() as string,
-          "priority":  priority,
-          "path": p,
-          "child": new Map(),
-          name,
-        }
-      )
-    } else {
-      const name = pathTokens[0];
-      const page = base.get(name)
-      if(page == undefined) {
-        base.set(name,
-          {
-            "child": new Map(),
-            "priority": defaultPriority,
-            name,
-          }
-        )
-      }
-      inner(base.get(name)!["child"], pathTokens.slice(1), fullpath)
-    }
-  }
-
-  let base: PageTree = new Map();
-  for(const asciidocPath of asciidocPaths) {
-    const relativePath = path.relative(docBase, asciidocPath)
-    const pathTokens = relativePath.split("/");
-    inner(base, pathTokens , relativePath);
-  }
-  return base;
 }
 
 /**
