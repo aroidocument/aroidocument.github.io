@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="ja">
 <meta charset="UTF-8">
-<title>{{title}} - サトイモ科ジャンク情報</title>
+<title>{{title}} - サトイモイモ</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="/style.css">
 <img style="display: none;" referrerpolicy="unsafe-url" src="http://analytics.ivy-box.net/pixel.gif">
-<div class="wrapper">
-  <img src="{{imagesrc}}" alt="{{imagealt}}" class="logo">
-  <table>
-    <tr><th>撮影者</th><td>{{author}}</td></tr>
-    <tr><th>説明</th><td>{{}}</td></tr>
-  </table>
+<div>
+  <div>
+    <img src="{{imagesrc}}" style="height:60vh" alt="{{imagealt}}" class="logo"/>
+    <table class="photo_table">
+      <tr><th>撮影者</th><td>{{author}}</td></tr>
+      <tr><th>説明</th><td>{{description | safe}}</td></tr>
+    </table>
+  </div>
 </div>
 </html>

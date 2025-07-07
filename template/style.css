@@ -49,6 +49,10 @@ body {
   border-color: rgb(217 215 210);
 }
 
+.photo_table th {
+  white-space: nowrap;
+}
+
 @media screen and (max-width: 600px) {
   .wrapper {
     grid-template-columns: auto;

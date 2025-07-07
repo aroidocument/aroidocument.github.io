@@ -6,12 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsx index.ts",
-    "watch": "tsx index.ts && onchange './article/**/*.adoc' './template/*.html' -- npm run build"
+    "watch": "tsx index.ts && onchange './article/**/*.adoc' './template/*.html' '.article/**/*.yaml' -- npm run build"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/glob": "^8.1.0",
+    "@types/js-yaml": "^4.0.9",
     "@types/jsdom": "^21.1.1",
     "@types/mkdirp": "^2.0.0",
     "@types/nunjucks": "^3.2.2",
@@ -29,6 +30,7 @@
     "xmlbuilder2": "^3.1.1"
   },
   "dependencies": {
+    "js-yaml": "^4.1.0",
     "tsx": "^4.20.3"
   }
 }

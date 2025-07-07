@@ -7,5 +7,5 @@
 <span>aroidconfluence&#64;outlook.jp</span>
 +++
 
-こちらのissueページに投稿してもらうことができます。
+こちらのissueページに要望を投稿してもらうことができます。
 https://github.com/aroidocument/aroidocument.github.io/issues

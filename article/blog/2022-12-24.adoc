@@ -1,6 +1,8 @@
 :hardbreaks:
 
-= 2022-12-24 寒い季節のOrontium aquaticum
+= 寒い季節のOrontium aquaticum
+
+2022-12-24
 
 +++
 <iframe src="https://drive.google.com/file/d/1hnv9aG4vqoCVnx7rrjNwDWf7m6eOhOOW/preview" width="640" height="480" allow="autoplay"></iframe>

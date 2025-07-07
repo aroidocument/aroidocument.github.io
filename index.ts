@@ -5,12 +5,11 @@ import nunjucks from "nunjucks";
 import _asciidoctor from 'asciidoctor';
 import path from "path";
 import * as fs from 'fs/promises';
-const mkdirp = require("mkdirp");
-import { JSDOM } from "jsdom";
-import { Page, PageTree } from "./src/model";
-import { TreeGenerator } from "./src/create-page-tree";
 import { globFiles } from "./src/glob";
 import { pageTreeFactory } from "./src/pagemenuHtmlService";
+import { generateImageHTMLs } from "./src/image-generator";
+
+const mkdirp = require("mkdirp");
 
 const asciidoctor = _asciidoctor();
 
@@ -23,7 +22,6 @@ const main = async () => {
   // 出力先の初期化
   await fs.rm(distDir, { recursive: true, force: true });
   await mkdirp(distDir);
-
 
   const pageTree = await pageTreeFactory(articleDir);
   const pageTreeHtml = await pageTree.createPageTreeHtml();
@@ -44,6 +42,8 @@ const main = async () => {
 
   // 静的ファイルのコピー
   await staticFileCopy();
+
+  await generateImageHTMLs("article/img/");
   console.log('Done.');
 }
 

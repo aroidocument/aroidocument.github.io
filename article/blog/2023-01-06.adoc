@@ -1,8 +1,7 @@
 :hardbreaks:
 :sitetree-ignore:
 
-= 2023-01-06 絶滅サトイモ科植物Cobbania（コッバニア？）
-
+= 絶滅サトイモ科植物Cobbania（コッバニア？）
 
 
 https://www.researchgate.net/publication/51186882_Cobbania_corrugata_gen_et_comb_nov_Araceae_a_floating_aquatic_monocot_from_the_Upper_Cretaceous_of_western_North_America
