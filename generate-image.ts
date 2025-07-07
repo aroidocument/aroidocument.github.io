@@ -1,4 +1,4 @@
 import { generateImage } from "./src/image-generator";
 
 
-generateImage("article/image")
+generateImage("article/img/")
