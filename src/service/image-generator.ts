@@ -32,6 +32,7 @@ export class ImagePageService {
     const htmlFilename = path.parse(imagesrc).name + ".html";
 
     // テンプレートにパラメータを適応
+    console.log(imagePage.config)
     let resultHtml = nunjucks.render(`${this.templateDir}/image.html`,  imagePage.config);
 
     const distHTMLPath = path.join(dirimage, htmlFilename);

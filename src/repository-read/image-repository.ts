@@ -21,33 +21,34 @@ export class ImagePageRepository {
 
     const imagePages: ImagePage[] = [];
     for(const sourceImagePath of sourceImagePaths) {
-      const pathdir = path.dirname(sourceImagePath);
-      const filename = path.parse(path.basename(sourceImagePath)).name +  ".yaml";
-      const yamlPath = path.join(pathdir, filename);
-
-      let imageAttr: Record<string, any> = {};
-      try {
-        await fs.stat(yamlPath);
-        const yamlContent = await fs.readFile(yamlPath, "utf8");
-        imageAttr = yaml.load(yamlContent) as Record<string, any>;
-      } catch {}
-
-      const imageFilename = path.basename(sourceImagePath);
-      const htmlFilename = path.parse(imageFilename).name + ".html";
-
-      // articleを除いたurl上のパスを作成
-      const imagesrc = path.relative(this.articleDir, sourceImagePath);
-
-      const pageAttribute = {
-        title: "タイトル",
-        imagesrc: imagesrc,
-        author: imageAttr["author"],
-        description: this.serializeHtml(imageAttr["description"])
-      }
-      const page = new ImagePage(pageAttribute, sourceImagePath);
+      const page = await this.imagePage(sourceImagePath);
       imagePages.push(page);
     }
     return imagePages;
+  }
+
+  async imagePage(sourceImagePath: string) {
+    const pathdir = path.dirname(sourceImagePath);
+    const filename = path.parse(path.basename(sourceImagePath)).name +  ".yaml";
+    const yamlPath = path.join(pathdir, filename);
+
+    let imageAttr: Record<string, any> = {};
+    try {
+      await fs.stat(yamlPath);
+      const yamlContent = await fs.readFile(yamlPath, "utf8");
+      imageAttr = yaml.load(yamlContent) as Record<string, any>;
+    } catch {}
+
+    // articleを除いたurl上のパスを作成
+    const imagesrc = path.relative(this.articleDir, sourceImagePath);
+
+    const pageAttribute = {
+      title: imageAttr["title"],
+      imagesrc: path.join("/", imagesrc),
+      author: imageAttr["author"],
+      description: this.serializeHtml(imageAttr["description"])
+    }
+    return new ImagePage(pageAttribute, sourceImagePath);
   }
 
   serializeHtml(s: string) {
