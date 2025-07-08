@@ -1,4 +1,4 @@
-import { generateImageHTMLs } from "./src/image-generator";
+import { generateImageHTMLs } from "./src/service/image-generator";
 
 
 generateImageHTMLs("article/img/")

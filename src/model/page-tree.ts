@@ -2,15 +2,13 @@ import _asciidoctor from 'asciidoctor';
 import path from "path";
 import { JSDOM } from "jsdom";
 
-import { createTree } from './pageRepository';
+import { fetchPageTree } from '../repository-read/page-repository';
 import {create} from 'xmlbuilder2';
 
 
 export async function pageTreeFactory(articleRootDir: string): Promise<PageTree> {
-  const allArticleTree = await createTree(articleRootDir, "/");
-  console.log("articleTree", JSON.stringify(allArticleTree));
+  const allArticleTree = await fetchPageTree(articleRootDir, "/");
   return new PageTree(allArticleTree);
-
 }
 
 export class PageTree {
