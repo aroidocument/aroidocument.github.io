@@ -1,9 +1,7 @@
-import nunjucks from "nunjucks";
 import * as fs from 'fs/promises';
 import { globFiles } from "../glob";
 import yaml from "js-yaml";
 import path from "path";
-import { OutputRepository } from "../repository-write/output-repository";
 import { ImagePage } from "../model/image-page";
 
 const mkdirp = require("mkdirp");
@@ -17,7 +15,7 @@ export class ImagePageRepository {
    * 画像向けHTMLを生成する
    */
   async fetchImagePages() {
-    const sourceImagePaths = await globFiles(this.articleDir + "/**/*.{jpg,jpeg,png}");
+    const sourceImagePaths = await globFiles(this.articleDir + "/**/*.{jpg,jpeg,png,JPG,PNG}");
 
     const imagePages: ImagePage[] = [];
     for(const sourceImagePath of sourceImagePaths) {
@@ -44,6 +42,7 @@ export class ImagePageRepository {
 
     const pageAttribute = {
       title: imageAttr["title"],
+      imagealt: imageAttr["title"],
       imagesrc: path.join("/", imagesrc),
       author: imageAttr["author"],
       description: this.serializeHtml(imageAttr["description"])
