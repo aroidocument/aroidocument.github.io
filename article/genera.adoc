@@ -33,16 +33,12 @@
 
 上記の系統樹は下記の論文の最大節約法で作られた図を参考にしています。
 https://bsapubs.onlinelibrary.wiley.com/doi/10.3732/ajb.0800073
-※ 最大節約法なので厳密性は低いと考えていいと思います。
-
-//== 前知識
-//根茎と球茎
-//QUOTE [http://www.nibb.ac.jp/plantdic/blog/?p=220]
+※ 研究手法的に厳密性は低いと考えていいと思います。
 
 [#Gymnostachydoideae]
 == Gymnostachydoideae亜科(ギムノスタキス亜科)
 
-サトイモ科の中では最古に分化した亜科。
+サトイモ科の中で最古に分化した亜科の一つ。
 
 [.inline-quote]
 .参考にしたもの
@@ -57,12 +53,17 @@ http://www.nibb.ac.jp/plantdic/blog/?p=220
 
 |Gymnostachys属
 |ジムノスタキス
-|サトイモ科というよりはショウブ科植物に見え、ショウブ科とサトイモ科の分岐点にいる古い特徴を持つ植物の一つだという事がわかる。
+|唯一の種のGymnostachys ancepsについて解説する。
 
-生息地はオーストラリアで、湿ったユーカリの森に生息するとか。
+オーストラリアの東側に生息。湿潤な森林から乾燥した森林にまで生息する。
 サトイモ科の中では珍しい平行脈の葉を持つ。花もサトイモ科らしくない見た目だがよくよく見るとサトイモ科の特徴を持つ。
+素人目にはショウブ科植物のように見えて、ショウブ科とサトイモ科の分岐点にいる古い特徴を持つ植物なんだろうと思う。
 
-常に興味深い属だが日本で見かける事はほとんどない。筑波実験植物園に展示されていたのを見かけたことがある。
+人間の関わりとしては先住民が釣り糸を作るために活用したり、ヨーロッパ先住民が豚の足を縛る紐として活用したとか。
+現地ではあまり注目されない植物らしいが、最近は地元で苗を供給する園芸店も増えているという情報も。
+マニア的には興味深い種だが日本で見かける事はほとんどない。筑波実験植物園に展示されていたのを見かけたことがある（近年は見かけない）。
+
+https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:87080-1[英国王立植物園の厳密な情報, window="_blank"]
 
 [.inline-quote]
 .関連資料
@@ -71,6 +72,10 @@ http://www.nibb.ac.jp/plantdic/blog/?p=220
 http://www.nibb.ac.jp/plantdic/blog/?p=220
 ジムノスタキス種子の写真
 http://idtools.org/id/seed_families/gallery-allpkg.php?page=3#gallery-11
+ジムノスタキスの生息地の写真
+https://blog.growingillawarranatives.org/2017/08/try-growing-settlers-flax-gymnostachys.html
+ジムノスタキスの現地での活用についての噂
+https://sown.com.au/gymnostachys-anceps-araceae-settlers-twine-boorgay/
 ****
 
 |===
@@ -79,20 +84,17 @@ http://idtools.org/id/seed_families/gallery-allpkg.php?page=3#gallery-11
 == Orontioideae亜科(水芭蕉亜科)
 
 ギムノスタキス亜科と並んで古い時代に分岐したサトイモ科の亜科。
-現存種は基本的に水辺を好む種が多い。
-
-// ギムノスタキス亜科に比べると見慣れたサトイモ科植物に近い見た目をしているが、葉柄鞘見当たらない種がいたりと原始的な亜科。
+現存種は水辺を好む種が多い。
 
 他のサトイモ科植物でも観られる特徴ではあるが、水芭蕉亜科では自在に伸び縮みできる収縮根を持っている。この根を使う事で茎の位置などを調整することができる。
-
-Orontioideae亜科は花を咲かせてシュート（枝）終了した後、分枝して成長を再開する時に頂点の二枚下の葉の下と普通より低い位置から始まる特徴がある。らしい？
+//
 
 [.inline-quote]
-.参考にしたもの
+.関連資料
 ****
-二枚下の葉の下について
-Genera of Aroidより
-収縮根
+Genera of AroidによるとOrontioideae亜科は花を咲かせてシュート（枝）終了した後、分枝して成長を再開する時に頂点の二枚下の葉の下と普通より低い位置から始まる特徴がある。らしい？
+
+収縮根についての話
 https://w.wiki/6bBD
 ****
 

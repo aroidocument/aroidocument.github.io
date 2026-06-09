@@ -1,6 +1,6 @@
 :sitetree-pariority-key: 10
 :hardbreaks:
 
-= 自由研究
+= ブログ
 
-夏休みの自由研究レベルの話
+適当
