@@ -42,6 +42,7 @@ const main = async () => {
     await outputRepository.copyFile(path.join(templateDir, 'style.css'), 'style.css');
     await outputRepository.copyFile(path.join(templateDir, 'logo.png'), 'logo.png');
     await outputRepository.copyFile(path.join(templateDir, 'sitemap.xsl'), 'sitemap.xsl');
+    await outputRepository.copyFile(path.join(templateDir, 'robots.txt'), 'robots.txt');
   }catch (err) {
     console.log(err);
     if(err instanceof Error) {
