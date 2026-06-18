@@ -15,7 +15,7 @@ export class ImagePageRepository {
    * 画像向けHTMLを生成する
    */
   async fetchImagePages() {
-    const sourceImagePaths = await globFiles(this.articleDir + "/**/*.{jpg,jpeg,png,JPG,PNG}");
+    const sourceImagePaths = await globFiles(this.articleDir + "/**/*.{jpg,jpeg,png,JPG,PNG,webp,WEBP}");
 
     const imagePages: ImagePage[] = [];
     for(const sourceImagePath of sourceImagePaths) {
