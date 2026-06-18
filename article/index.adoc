@@ -1,0 +1,5 @@
+:sitetree-ignore:
+
+= サイトメニュー
+
+{{sidemenu | safe}}

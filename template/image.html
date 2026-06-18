@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<meta charset="UTF-8">
+<title>{{title}} - サトイモイモ</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="/style.css">
+<div class="wrapper">
+  <article class="article component">
+    <main>
+      <a href="/">
+        <div class="title">
+          <h1>サトイモイモ</h1>
+        </div>
+      </a>
+      <img src="{{imagesrc}}" style="height:60vh" alt="{{imagealt}}" class="logo"/>
+      <table class="photo_table">
+        <tr><th>概要</th><td>{{title}}</td></tr>
+        <tr><th>撮影者</th><td>{{author}}</td></tr>
+        <tr><th>説明</th><td>{{description | safe}}</td></tr>
+      </table>
+    </main>
+  </article>
+</div>
+</html>

@@ -1,0 +1,6 @@
+:sitetree-pariority-key: 10
+:hardbreaks:
+
+= ブログ
+
+適当

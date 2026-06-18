@@ -1,0 +1,7 @@
+:hardbreaks:
+:imagesdir: ../../
+
+= 画像テスト
+
+image:img/anubias.jpg[width="100px"]
+image:img/zou.jpg[width="100px"]
